@@ -1,0 +1,543 @@
+{
+  "repos": {
+    "public-apis/public-apis": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 458890,
+          "rank": 1,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "freeCodeCamp/freeCodeCamp": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 454025,
+          "rank": 2,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "EbookFoundation/free-programming-books": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 394417,
+          "rank": 3,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "openclaw/openclaw": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 386332,
+          "rank": 4,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "nilbuild/developer-roadmap": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 364429,
+          "rank": 5,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "awesome-selfhosted/awesome-selfhosted": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 312743,
+          "rank": 6,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "practical-tutorials/project-based-learning": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 279234,
+          "rank": 7,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "obra/superpowers": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 272253,
+          "rank": 8,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "react/react": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 247239,
+          "rank": 9,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "torvalds/linux": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 242864,
+          "rank": 10,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "affaan-m/ECC": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 240184,
+          "rank": 11,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "NousResearch/hermes-agent": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 230756,
+          "rank": 12,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "mattpocock/skills": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 217769,
+          "rank": 13,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "n8n-io/n8n": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 200661,
+          "rank": 14,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "anomalyco/opencode": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 197581,
+          "rank": 15,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "tensorflow/tensorflow": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 197021,
+          "rank": 16,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "DigitalPlatDev/FreeDomain": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 192978,
+          "rank": 17,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "ohmyzsh/ohmyzsh": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 189195,
+          "rank": 18,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "microsoft/vscode": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 188699,
+          "rank": 19,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "Significant-Gravitas/AutoGPT": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 186607,
+          "rank": 20,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "avelino/awesome-go": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 181083,
+          "rank": 21,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "ollama/ollama": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 178524,
+          "rank": 22,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "flutter/flutter": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 178381,
+          "rank": 23,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "twbs/bootstrap": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 174589,
+          "rank": 24,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "anthropics/skills": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 169435,
+          "rank": 25,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "firecrawl/firecrawl": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167505,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "f/prompts.chat": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167140,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "huggingface/transformers": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 164089,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "langflow-ai/langflow": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 153244,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "microsoft/PowerToys": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 137775,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "excalidraw/excalidraw": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 129611,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "junegunn/fzf": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 82527,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "rtk-ai/rtk": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 76177,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "hesreallyhim/awesome-claude-code": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 52325,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "CherryHQ/cherry-studio": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 50492,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 49189,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "cli/cli": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 45824,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "stablyai/orca": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 45781,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "files-community/Files": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 44626,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "deepseek-ai/deepseek-harness": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 101819,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "guillaumemeyer/watermarks-remover": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 8638,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "anywhere-labs/deepseek-harness-desktop": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 3051,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "zhu1090093659/dsh-web-ui": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 2145,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "SMNETSTUDIO/WeChat-AI": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 1719,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "awesome-dsh-plugin/awesome-dsh-plugin": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 1674,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "xoreaxeaxeax/skitter-creek-bath-salts": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 1599,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "cordiverse/paper": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 1403,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "gvzdv/claudish-to-english": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 1124,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "Leutenegger/book-to-skill": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 1080,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    }
+  }
+}
