@@ -14,6 +14,21 @@
         "newEntries": 25,
         "droppedEntries": 0
       }
+    },
+    {
+      "issue": 2,
+      "date": "2026-08-15",
+      "file": "snapshots/2026-08-15.json",
+      "stats": {
+        "totalRepos": 52,
+        "totalStars": 5793627,
+        "weeklyStarGain": 632,
+        "aiCount": 12,
+        "toolsCount": 12,
+        "languageCount": 10,
+        "newEntries": 19,
+        "droppedEntries": 19
+      }
     }
   ]
 }
