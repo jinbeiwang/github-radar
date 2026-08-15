@@ -1,4 +1,4 @@
-# GitHub Radar 重新设计 · 实现计划
+﻿# GitHub Radar 重新设计 · 实现计划
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
@@ -20,12 +20,12 @@
 - Create: `package.json`, `vite.config.ts`, `tsconfig.json`, `index.html`, `src/main.tsx`, `src/App.tsx`（占位）, `src/vite-env.d.ts`, `src/styles/tokens.css`（占位）, `src/styles/app.css`（占位）
 - Delete: `dashboard.html`, `dashboard.jsx`, `data.js`, `fetch-data.js`, `dashboard-data.json`
 
-- [ ] **Step 1: 确认 Node ≥ 20**
+- [x] **Step 1: 确认 Node ≥ 20**
 
 Run: `node --version`
 Expected: `v20.x.x` 或更高。若未安装 Node 20+，停止并告知用户安装后再继续。
 
-- [ ] **Step 2: 写 `package.json`**
+- [x] **Step 2: 写 `package.json`**
 
 ```json
 {
@@ -56,7 +56,7 @@ Expected: `v20.x.x` 或更高。若未安装 Node 20+，停止并告知用户安
 }
 ```
 
-- [ ] **Step 3: 写 `vite.config.ts`**
+- [x] **Step 3: 写 `vite.config.ts`**
 
 ```ts
 /// <reference types="vitest/config" />
@@ -77,7 +77,7 @@ export default defineConfig({
 })
 ```
 
-- [ ] **Step 4: 写 `tsconfig.json`**
+- [x] **Step 4: 写 `tsconfig.json`**
 
 ```json
 {
@@ -97,7 +97,7 @@ export default defineConfig({
 }
 ```
 
-- [ ] **Step 5: 写 `index.html`**
+- [x] **Step 5: 写 `index.html`**
 
 ```html
 <!doctype html>
@@ -115,14 +115,14 @@ export default defineConfig({
 </html>
 ```
 
-- [ ] **Step 6: 写 `src/vite-env.d.ts`**
+- [x] **Step 6: 写 `src/vite-env.d.ts`**
 
 ```ts
 /// <reference types="vite/client" />
 declare const __APP_VERSION__: string
 ```
 
-- [ ] **Step 7: 写 `src/main.tsx` 与占位文件**
+- [x] **Step 7: 写 `src/main.tsx` 与占位文件**
 
 `src/main.tsx`:
 ```tsx
@@ -148,23 +148,23 @@ export default function App() {
 
 `src/styles/tokens.css` 与 `src/styles/app.css` 各写一行：`/* Task 2 填充 */`
 
-- [ ] **Step 8: 安装依赖**
+- [x] **Step 8: 安装依赖**
 
 Run: `npm install`
 若 npm 官方源超时：`npm install --registry https://registry.npmmirror.com`
 Expected: `added N packages`，生成 `package-lock.json`。
 
-- [ ] **Step 9: 构建验证**
+- [x] **Step 9: 构建验证**
 
 Run: `npm run build`
 Expected: `vite v6… built in …s`，生成 `dist/`，TypeScript 无报错。
 
-- [ ] **Step 10: 删除遗留文件**
+- [x] **Step 10: 删除遗留文件**
 
 Run: `git rm dashboard.html dashboard.jsx data.js fetch-data.js dashboard-data.json`
 Expected: 5 个文件从工作区与索引移除。
 
-- [ ] **Step 11: 提交**
+- [x] **Step 11: 提交**
 
 Run: `git add -A ; git commit -m "feat: Vite+React+TS 工程脚手架，移除遗留原型文件"`
 Expected: 提交成功。
@@ -177,7 +177,7 @@ Expected: 提交成功。
 - Modify: `src/styles/tokens.css`（替换占位）
 - Modify: `src/styles/app.css`（替换占位）
 
-- [ ] **Step 1: 写 `src/styles/tokens.css`**
+- [x] **Step 1: 写 `src/styles/tokens.css`**
 
 ```css
 :root {
@@ -208,7 +208,7 @@ Expected: 提交成功。
 }
 ```
 
-- [ ] **Step 2: 写 `src/styles/app.css`**
+- [x] **Step 2: 写 `src/styles/app.css`**
 
 ```css
 * { box-sizing: border-box; }
@@ -312,7 +312,7 @@ td.spark { text-align: center; }
 }
 ```
 
-- [ ] **Step 3: 构建验证并提交**
+- [x] **Step 3: 构建验证并提交**
 
 Run: `npm run build ; git add -A ; git commit -m "feat: Primer 设计令牌与全局样式"`
 Expected: 构建成功，提交成功。
@@ -325,7 +325,7 @@ Expected: 构建成功，提交成功。
 - Test: `scripts/lib/dates.test.mjs`
 - Create: `scripts/lib/dates.mjs`
 
-- [ ] **Step 1: 写失败测试 `scripts/lib/dates.test.mjs`**
+- [x] **Step 1: 写失败测试 `scripts/lib/dates.test.mjs`**
 
 ```js
 import { describe, expect, it } from 'vitest'
@@ -347,12 +347,12 @@ describe('dates', () => {
 })
 ```
 
-- [ ] **Step 2: 运行确认失败**
+- [x] **Step 2: 运行确认失败**
 
 Run: `npm test`
 Expected: FAIL（无法加载 `./dates.mjs`）。
 
-- [ ] **Step 3: 实现 `scripts/lib/dates.mjs`**
+- [x] **Step 3: 实现 `scripts/lib/dates.mjs`**
 
 ```js
 const TZ_OFFSET_MS = 8 * 3600 * 1000
@@ -370,12 +370,12 @@ export function dateRange(now = new Date(), daysBack = 7) {
 }
 ```
 
-- [ ] **Step 4: 运行确认通过**
+- [x] **Step 4: 运行确认通过**
 
 Run: `npm test`
 Expected: PASS（3 个用例）。
 
-- [ ] **Step 5: 提交**
+- [x] **Step 5: 提交**
 
 Run: `git add scripts/lib/dates.mjs scripts/lib/dates.test.mjs ; git commit -m "feat: 上海时区日期工具（TDD）"`
 
@@ -387,7 +387,7 @@ Run: `git add scripts/lib/dates.mjs scripts/lib/dates.test.mjs ; git commit -m "
 - Test: `scripts/lib/queries.test.mjs`
 - Create: `scripts/lib/queries.mjs`
 
-- [ ] **Step 1: 写失败测试 `scripts/lib/queries.test.mjs`**
+- [x] **Step 1: 写失败测试 `scripts/lib/queries.test.mjs`**
 
 ```js
 import { describe, expect, it } from 'vitest'
@@ -412,12 +412,12 @@ describe('queries', () => {
 })
 ```
 
-- [ ] **Step 2: 运行确认失败**
+- [x] **Step 2: 运行确认失败**
 
 Run: `npm test`
 Expected: FAIL（模块不存在）。
 
-- [ ] **Step 3: 实现 `scripts/lib/queries.mjs`**
+- [x] **Step 3: 实现 `scripts/lib/queries.mjs`**
 
 ```js
 export const LANGUAGES = ['Python', 'TypeScript', 'Go', 'Rust', 'C++', 'Java', 'JavaScript']
@@ -429,12 +429,12 @@ export const qTools = (from) => `"developer tools" OR devtools OR productivity O
 export const qRising = (from) => `stars:>100 created:>${from}`
 ```
 
-- [ ] **Step 4: 运行确认通过**
+- [x] **Step 4: 运行确认通过**
 
 Run: `npm test`
 Expected: PASS。
 
-- [ ] **Step 5: 提交**
+- [x] **Step 5: 提交**
 
 Run: `git add scripts/lib/queries.mjs scripts/lib/queries.test.mjs ; git commit -m "feat: Search API 查询构建器（TDD）"`
 
@@ -446,7 +446,7 @@ Run: `git add scripts/lib/queries.mjs scripts/lib/queries.test.mjs ; git commit 
 - Test: `scripts/lib/clean.test.mjs`
 - Create: `scripts/lib/clean.mjs`
 
-- [ ] **Step 1: 写失败测试 `scripts/lib/clean.test.mjs`**
+- [x] **Step 1: 写失败测试 `scripts/lib/clean.test.mjs`**
 
 ```js
 import { describe, expect, it } from 'vitest'
@@ -494,12 +494,12 @@ describe('clean', () => {
 })
 ```
 
-- [ ] **Step 2: 运行确认失败**
+- [x] **Step 2: 运行确认失败**
 
 Run: `npm test`
 Expected: FAIL。
 
-- [ ] **Step 3: 实现 `scripts/lib/clean.mjs`**
+- [x] **Step 3: 实现 `scripts/lib/clean.mjs`**
 
 ```js
 const DAY_MS = 86400 * 1000
@@ -534,12 +534,12 @@ export function daysOld(createdAt, toDate) {
 }
 ```
 
-- [ ] **Step 4: 运行确认通过**
+- [x] **Step 4: 运行确认通过**
 
 Run: `npm test`
 Expected: PASS。
 
-- [ ] **Step 5: 提交**
+- [x] **Step 5: 提交**
 
 Run: `git add scripts/lib/clean.mjs scripts/lib/clean.test.mjs ; git commit -m "feat: 仓库数据清洗与候选池构建（TDD）"`
 
@@ -551,7 +551,7 @@ Run: `git add scripts/lib/clean.mjs scripts/lib/clean.test.mjs ; git commit -m "
 - Test: `scripts/lib/diff.test.mjs`
 - Create: `scripts/lib/diff.mjs`
 
-- [ ] **Step 1: 写失败测试 `scripts/lib/diff.test.mjs`**
+- [x] **Step 1: 写失败测试 `scripts/lib/diff.test.mjs`**
 
 ```js
 import { describe, expect, it } from 'vitest'
@@ -595,12 +595,12 @@ describe('entryChanges', () => {
 })
 ```
 
-- [ ] **Step 2: 运行确认失败**
+- [x] **Step 2: 运行确认失败**
 
 Run: `npm test`
 Expected: FAIL。
 
-- [ ] **Step 3: 实现 `scripts/lib/diff.mjs`**
+- [x] **Step 3: 实现 `scripts/lib/diff.mjs`**
 
 ```js
 export function computeGains(candidates, prevPool = {}) {
@@ -641,12 +641,12 @@ export function entryChanges(currentNames, prevNames = []) {
 }
 ```
 
-- [ ] **Step 4: 运行确认通过**
+- [x] **Step 4: 运行确认通过**
 
 Run: `npm test`
 Expected: PASS。
 
-- [ ] **Step 5: 提交**
+- [x] **Step 5: 提交**
 
 Run: `git add scripts/lib/diff.mjs scripts/lib/diff.test.mjs ; git commit -m "feat: 周涨星计算与热榜排名（TDD）"`
 
@@ -658,7 +658,7 @@ Run: `git add scripts/lib/diff.mjs scripts/lib/diff.test.mjs ; git commit -m "fe
 - Test: `scripts/lib/persist.test.mjs`
 - Create: `scripts/lib/persist.mjs`
 
-- [ ] **Step 1: 写失败测试 `scripts/lib/persist.test.mjs`**
+- [x] **Step 1: 写失败测试 `scripts/lib/persist.test.mjs`**
 
 ```js
 import { mkdtempSync, readFileSync, rmSync } from 'node:fs'
@@ -749,12 +749,12 @@ describe('writeDataFiles', () => {
 })
 ```
 
-- [ ] **Step 2: 运行确认失败**
+- [x] **Step 2: 运行确认失败**
 
 Run: `npm test`
 Expected: FAIL。
 
-- [ ] **Step 3: 实现 `scripts/lib/persist.mjs`**
+- [x] **Step 3: 实现 `scripts/lib/persist.mjs`**
 
 ```js
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
@@ -843,12 +843,12 @@ export function readJsonIfExists(file) {
 }
 ```
 
-- [ ] **Step 4: 运行确认通过**
+- [x] **Step 4: 运行确认通过**
 
 Run: `npm test`
 Expected: PASS（含窗口剔除与同期替换）。
 
-- [ ] **Step 5: 提交**
+- [x] **Step 5: 提交**
 
 Run: `git add scripts/lib/persist.mjs scripts/lib/persist.test.mjs ; git commit -m "feat: 快照/历史/趋势落盘构建器（TDD）"`
 
@@ -860,7 +860,7 @@ Run: `git add scripts/lib/persist.mjs scripts/lib/persist.test.mjs ; git commit 
 - Create: `scripts/lib/github-api.mjs`
 - Create: `scripts/fetch-trending.mjs`
 
-- [ ] **Step 1: 写 `scripts/lib/github-api.mjs`**
+- [x] **Step 1: 写 `scripts/lib/github-api.mjs`**
 
 ```js
 import https from 'node:https'
@@ -902,7 +902,7 @@ export async function searchRepos({ q, sort = 'stars', order = 'desc', perPage =
 }
 ```
 
-- [ ] **Step 2: 写 `scripts/fetch-trending.mjs`**
+- [x] **Step 2: 写 `scripts/fetch-trending.mjs`**
 
 ```js
 import { join } from 'node:path'
@@ -985,12 +985,12 @@ async function main() {
 main().catch((e) => { console.error('抓取失败：', e.message); process.exit(1) })
 ```
 
-- [ ] **Step 3: 语法检查**
+- [x] **Step 3: 语法检查**
 
 Run: `node --check scripts/fetch-trending.mjs ; node --check scripts/lib/github-api.mjs`
 Expected: 无输出（语法通过）。
 
-- [ ] **Step 4: 提交**
+- [x] **Step 4: 提交**
 
 Run: `git add scripts/fetch-trending.mjs scripts/lib/github-api.mjs ; git commit -m "feat: GitHub API 客户端与抓取入口（限速/重试/幂等重跑）"`
 
@@ -1001,18 +1001,18 @@ Run: `git add scripts/fetch-trending.mjs scripts/lib/github-api.mjs ; git commit
 **Files:**
 - Create（脚本生成）: `public/data/snapshots/2026-08-16.json`, `public/data/latest.json`, `public/data/history.json`, `public/data/trends.json`
 
-- [ ] **Step 1: 运行抓取（以 2026-08-16 作为首期日期）**
+- [x] **Step 1: 运行抓取（以 2026-08-16 作为首期日期）**
 
 Run: `node scripts/fetch-trending.mjs --date 2026-08-16`
 Expected: 输出各查询条数，最终 `完成：第 1 期 · 热榜 25 · 候选池 200+`；`public/data/` 下生成 4 组文件。
 若 API 超时/连接重置：稍后重试一次（脚本幂等，同日重跑覆盖）。
 
-- [ ] **Step 2: 校验数据形状**
+- [x] **Step 2: 校验数据形状**
 
 Run: `node -e "const s=require('./public/data/latest.json'); console.log(s.issue, s.dateRange.to, s.overall.length, Object.keys(s.pool).length, s.stats.totalRepos, s.risingStars[0]?.starsPerDay)"`
 Expected: `1 2026-08-16 25 <候选池数> <去重仓库数> <正整数>`
 
-- [ ] **Step 3: 提交**
+- [x] **Step 3: 提交**
 
 Run: `git add public/data ; git commit -m "data: 2026-08-16 weekly snapshot (#1)"`
 
@@ -1024,7 +1024,7 @@ Run: `git add public/data ; git commit -m "data: 2026-08-16 weekly snapshot (#1)
 - Create: `src/lib/types.ts`, `src/lib/format.ts`, `src/lib/langColors.ts`
 - Test: `src/lib/format.test.ts`
 
-- [ ] **Step 1: 写 `src/lib/types.ts`**
+- [x] **Step 1: 写 `src/lib/types.ts`**
 
 ```ts
 export interface Repo {
@@ -1081,7 +1081,7 @@ export interface TrendWeek { issue: number; date: string; stars: number; rank: n
 export interface TrendsFile { repos: Record<string, { weeks: TrendWeek[] }> }
 ```
 
-- [ ] **Step 2: 写失败测试 `src/lib/format.test.ts`**
+- [x] **Step 2: 写失败测试 `src/lib/format.test.ts`**
 
 ```ts
 import { describe, expect, it } from 'vitest'
@@ -1106,12 +1106,12 @@ describe('speedBadge', () => {
 })
 ```
 
-- [ ] **Step 3: 运行确认失败**
+- [x] **Step 3: 运行确认失败**
 
 Run: `npm test`
 Expected: FAIL（模块不存在）。
 
-- [ ] **Step 4: 实现 `src/lib/format.ts`**
+- [x] **Step 4: 实现 `src/lib/format.ts`**
 
 ```ts
 const trim = (s: string) => s.replace(/\.0$/, '')
@@ -1129,7 +1129,7 @@ export function speedBadge(spd: number): 'purple' | 'blue' | 'gray' {
 }
 ```
 
-- [ ] **Step 5: 写 `src/lib/langColors.ts`**
+- [x] **Step 5: 写 `src/lib/langColors.ts`**
 
 ```ts
 const COLORS: Record<string, string> = {
@@ -1146,7 +1146,7 @@ export function langColor(lang: string | null): string {
 }
 ```
 
-- [ ] **Step 6: 运行确认通过并提交**
+- [x] **Step 6: 运行确认通过并提交**
 
 Run: `npm test ; npm run build ; git add src/lib/types.ts src/lib/format.ts src/lib/format.test.ts src/lib/langColors.ts ; git commit -m "feat: 前端类型与格式化工具（TDD）"`
 Expected: 测试 PASS，构建成功。
@@ -1159,7 +1159,7 @@ Expected: 测试 PASS，构建成功。
 - Create: `src/lib/data.ts`, `src/lib/trends.ts`
 - Test: `src/lib/trends.test.ts`
 
-- [ ] **Step 1: 写 `src/lib/data.ts`**
+- [x] **Step 1: 写 `src/lib/data.ts`**
 
 ```ts
 import type { HistoryFile, Snapshot, TrendsFile } from './types'
@@ -1178,7 +1178,7 @@ export const loadSnapshot = (file: string) => getJson<Snapshot>(file)
 export const loadTrends = () => getJson<TrendsFile>('trends.json')
 ```
 
-- [ ] **Step 2: 写失败测试 `src/lib/trends.test.ts`**
+- [x] **Step 2: 写失败测试 `src/lib/trends.test.ts`**
 
 ```ts
 import { describe, expect, it } from 'vitest'
@@ -1238,12 +1238,12 @@ describe('sparklineColor', () => {
 })
 ```
 
-- [ ] **Step 3: 运行确认失败**
+- [x] **Step 3: 运行确认失败**
 
 Run: `npm test`
 Expected: FAIL。
 
-- [ ] **Step 4: 实现 `src/lib/trends.ts`**
+- [x] **Step 4: 实现 `src/lib/trends.ts`**
 
 ```ts
 import type { TrendWeek, TrendsFile } from './types'
@@ -1309,7 +1309,7 @@ export function sparklineColor(row: Pick<TrendRow, 'streak' | 'weeks'>): 'green'
 }
 ```
 
-- [ ] **Step 5: 运行确认通过并提交**
+- [x] **Step 5: 运行确认通过并提交**
 
 Run: `npm test ; git add src/lib/data.ts src/lib/trends.ts src/lib/trends.test.ts ; git commit -m "feat: 数据加载与趋势计算（streak/掉榜/排序，TDD）"`
 Expected: PASS。
@@ -1323,13 +1323,13 @@ Expected: PASS。
 - Modify: `src/vite-env.d.ts`（追加版本常量声明）
 - Create: `src/components/Topbar.tsx`, `src/components/Stats.tsx`
 
-- [ ] **Step 1: `src/vite-env.d.ts` 追加一行**
+- [x] **Step 1: `src/vite-env.d.ts` 追加一行**
 
 ```ts
 declare const __APP_VERSION__: string
 ```
 
-- [ ] **Step 2: 写 `src/components/Topbar.tsx`**
+- [x] **Step 2: 写 `src/components/Topbar.tsx`**
 
 ```tsx
 import type { HistoryEntry, Snapshot } from '../lib/types'
@@ -1361,7 +1361,7 @@ export default function Topbar({ snapshot, history, weekFile, onWeekChange }: Pr
 }
 ```
 
-- [ ] **Step 3: 写 `src/components/Stats.tsx`**
+- [x] **Step 3: 写 `src/components/Stats.tsx`**
 
 ```tsx
 import { fmtStars } from '../lib/format'
@@ -1388,7 +1388,7 @@ export default function Stats({ stats }: { stats: SnapshotStats }) {
 }
 ```
 
-- [ ] **Step 4: 替换 `src/App.tsx`**
+- [x] **Step 4: 替换 `src/App.tsx`**
 
 ```tsx
 import { useEffect, useState } from 'react'
@@ -1460,7 +1460,7 @@ export default function App() {
 }
 ```
 
-- [ ] **Step 5: 构建验证（组件未写会失败，属预期）**
+- [x] **Step 5: 构建验证（组件未写会失败，属预期）**
 
 Run: `npm run build`
 Expected: FAIL，报 `./components/Leaderboard` 等模块不存在——下一个 Task 补齐。
@@ -1472,7 +1472,7 @@ Expected: FAIL，报 `./components/Leaderboard` 等模块不存在——下一�
 **Files:**
 - Create: `src/components/Leaderboard.tsx`
 
-- [ ] **Step 1: 写 `src/components/Leaderboard.tsx`**
+- [x] **Step 1: 写 `src/components/Leaderboard.tsx`**
 
 ```tsx
 import { fmtStars } from '../lib/format'
@@ -1536,7 +1536,7 @@ export default function Leaderboard({ rows }: { rows: RankedRepo[] }) {
 }
 ```
 
-- [ ] **Step 2: 构建验证**
+- [x] **Step 2: 构建验证**
 
 Run: `npm run build`
 Expected: 仍 FAIL（TopicBoards/RisingStars/TrendView 未写）。
@@ -1548,7 +1548,7 @@ Expected: 仍 FAIL（TopicBoards/RisingStars/TrendView 未写）。
 **Files:**
 - Create: `src/components/TopicBoards.tsx`
 
-- [ ] **Step 1: 写 `src/components/TopicBoards.tsx`**
+- [x] **Step 1: 写 `src/components/TopicBoards.tsx`**
 
 ```tsx
 import { fmtStars } from '../lib/format'
@@ -1610,7 +1610,7 @@ export default function TopicBoards({ topics }: { topics: { ai: Repo[]; tools: R
 }
 ```
 
-- [ ] **Step 2: 构建验证**
+- [x] **Step 2: 构建验证**
 
 Run: `npm run build`
 Expected: 仍 FAIL（RisingStars/TrendView 未写）。
@@ -1622,7 +1622,7 @@ Expected: 仍 FAIL（RisingStars/TrendView 未写）。
 **Files:**
 - Create: `src/components/RisingStars.tsx`
 
-- [ ] **Step 1: 写 `src/components/RisingStars.tsx`**
+- [x] **Step 1: 写 `src/components/RisingStars.tsx`**
 
 ```tsx
 import { fmtStars, speedBadge } from '../lib/format'
@@ -1668,7 +1668,7 @@ export default function RisingStars({ rows }: { rows: NewRepo[] }) {
 }
 ```
 
-- [ ] **Step 2: 构建验证**
+- [x] **Step 2: 构建验证**
 
 Run: `npm run build`
 Expected: 仍 FAIL（TrendView 未写）。
@@ -1680,7 +1680,7 @@ Expected: 仍 FAIL（TrendView 未写）。
 **Files:**
 - Create: `src/components/Sparkline.tsx`, `src/components/TrendView.tsx`
 
-- [ ] **Step 1: 写 `src/components/Sparkline.tsx`**
+- [x] **Step 1: 写 `src/components/Sparkline.tsx`**
 
 ```tsx
 const COLORS = { green: 'var(--success)', red: 'var(--danger)', purple: 'var(--purple)' } as const
@@ -1706,7 +1706,7 @@ export default function Sparkline({ values, color }: { values: number[]; color: 
 }
 ```
 
-- [ ] **Step 2: 写 `src/components/TrendView.tsx`**
+- [x] **Step 2: 写 `src/components/TrendView.tsx`**
 
 ```tsx
 import { useEffect, useMemo, useState } from 'react'
@@ -1825,12 +1825,12 @@ export default function TrendView({ currentIssue }: { currentIssue: number }) {
 }
 ```
 
-- [ ] **Step 3: 构建与测试全部通过**
+- [x] **Step 3: 构建与测试全部通过**
 
 Run: `npm test ; npm run build`
 Expected: 测试 PASS，构建成功。
 
-- [ ] **Step 4: 提交**
+- [x] **Step 4: 提交**
 
 Run: `git add src ; git commit -m "feat: 四大视图组件（周榜/主题/新星/趋势）与应用骨架"`
 
@@ -1841,7 +1841,7 @@ Run: `git add src ; git commit -m "feat: 四大视图组件（周榜/主题/新�
 **Files:**
 - Create: `.github/workflows/weekly.yml`, `CHANGELOG.md`
 
-- [ ] **Step 1: 写 `.github/workflows/weekly.yml`**
+- [x] **Step 1: 写 `.github/workflows/weekly.yml`**
 
 ```yaml
 name: Weekly Update
@@ -1907,7 +1907,7 @@ jobs:
 
 说明：cron `0 3 * * 0` = 每周日 03:00 UTC（北京时间 11:00）。GitHub 计划任务按 UTC 执行且高峰期可能延迟，属正常。
 
-- [ ] **Step 2: 写 `CHANGELOG.md`**
+- [x] **Step 2: 写 `CHANGELOG.md`**
 
 ```markdown
 # Changelog
@@ -1929,7 +1929,7 @@ jobs:
 - 首期数据：2026-08-16 快照（第 1 期）
 ```
 
-- [ ] **Step 3: 提交**
+- [x] **Step 3: 提交**
 
 Run: `git add .github/workflows/weekly.yml CHANGELOG.md ; git commit -m "ci: 每周日自动抓取并部署 Pages 工作流 + CHANGELOG"`
 
@@ -1937,7 +1937,7 @@ Run: `git add .github/workflows/weekly.yml CHANGELOG.md ; git commit -m "ci: 每
 
 ### Task 18: 端到端验证与版本标记
 
-- [ ] **Step 1: 全量测试与构建**
+- [x] **Step 1: 全量测试与构建**
 
 Run: `npm test ; npm run build`
 Expected: 全部 PASS；`dist/github-radar/` 下含 `index.html` 与 `data/latest.json`、`data/history.json`、`data/trends.json`、`data/snapshots/`。
@@ -1945,7 +1945,7 @@ Expected: 全部 PASS；`dist/github-radar/` 下含 `index.html` 与 `data/lates
 Run: `Get-ChildItem dist/github-radar/data -Recurse -File | Select-Object -ExpandProperty FullName`
 Expected: 列出上述文件。
 
-- [ ] **Step 2: 本地预览冒烟**
+- [x] **Step 2: 本地预览冒烟**
 
 Run: `npm run preview`
 浏览器打开 `http://localhost:4173/github-radar/`，逐项检查：
@@ -1956,11 +1956,11 @@ Run: `npm run preview`
 5. 点击表格行在新标签打开对应 GitHub 仓库
 验证后 Ctrl+C 停止。
 
-- [ ] **Step 3: 打版本标签**
+- [x] **Step 3: 打版本标签**
 
 Run: `git tag -a v1.0.0 -m "v1.0.0: GitHub Radar 重建首版"`
 
-- [ ] **Step 4: 输出用户上线步骤（不代执行）**
+- [x] **Step 4: 输出用户上线步骤（不代执行）**
 
 向用户说明：
 1. 在 GitHub 新建空仓库（建议名 `github-radar`）
@@ -1980,3 +1980,17 @@ Run: `git tag -a v1.0.0 -m "v1.0.0: GitHub Radar 重建首版"`
 - [ ] 用户知晓上线四步（建仓库/推送/开启 Pages/触发工作流）
 
 
+
+---
+
+## 执行记录（2026-08-15）
+
+全部 18 个任务已完成，v1.0.0 已打标签。与原计划的偏差：
+
+1. **diff.test.mjs**：原测试期望 `['hot','warm','new']` 与规格「未知涨星按总星数降序补足」矛盾，修正为 `['hot','warm','big']`。
+2. **persist.test.mjs**：原「16 周剔除」用例夹具（ghost 第 1 期、当前第 3 期）不可能触发剔除，改为当前第 20 期并补「边界内保留」断言；同时 **persist.mjs** 保留条件由 `>` 改为 `>=`（恰好 16 期未上榜仍保留，超过 16 期才剔除），与「超过 16 周剔除」语义一致。
+3. **Task 12 Step 1 冗余**：`__APP_VERSION__` 声明在 Task 1 的 `vite-env.d.ts` 已包含，跳过。
+4. **Task 18 构建产物路径**：产物在 `dist/` 根（`base` 仅影响 URL 前缀），非 `dist/github-radar/`；Pages 上传 `dist` 即正确。
+5. **Task 18 窄屏冒烟**：浏览器自动化工具不支持调整视口，改为静态确认 `@media (max-width:720px)` 已进入构建产物；真实窄屏表现留待用户手机/开发者工具复验。
+
+验证结果：32 个测试用例全绿；`npm run build` 通过；桌面端浏览器冒烟（顶栏/统计卡/四个 Tab/console 无错误）全部通过。
