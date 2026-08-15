@@ -30,10 +30,16 @@ async function main() {
   const { from, to } = range
   console.log(`GitHub Radar 抓取开始：${from} → ${to}（token: ${TOKEN ? '有，2.5s 间隔' : '无，6.5s 限速'}）`)
 
-  const prevSnapshot = readJsonIfExists(join(DATA_DIR, 'snapshots', `${to}.json`))
-    ?? readJsonIfExists(join(DATA_DIR, 'latest.json'))
   const prevHistory = readJsonIfExists(join(DATA_DIR, 'history.json'))
   const prevTrends = readJsonIfExists(join(DATA_DIR, 'trends.json'))
+  const sameDay = (prevHistory?.issues ?? []).find((e) => e.date === to)
+  // 刷新已有期数时，涨幅基准取上一期快照；本期为新期时取 latest（即上一期）
+  const prevIssueEntry = sameDay
+    ? (prevHistory?.issues ?? []).find((e) => e.issue === sameDay.issue - 1)
+    : null
+  const prevSnapshot = prevIssueEntry
+    ? readJsonIfExists(join(DATA_DIR, prevIssueEntry.file))
+    : (sameDay ? null : readJsonIfExists(join(DATA_DIR, 'latest.json')))
 
   const overallRaw = [...await fetchItems(qOverall(from), 100, 1)]
   await sleep(SPACING)
@@ -64,7 +70,6 @@ async function main() {
   const prevRanks = Object.fromEntries((prevSnapshot?.overall ?? []).map((r) => [r.name, r.rank]))
   const overall = rankOverall(candidates, gains, prevRanks, 25)
 
-  const sameDay = (prevHistory?.issues ?? []).find((e) => e.date === to)
   const issue = sameDay?.issue ?? (prevHistory?.issues?.at(-1)?.issue ?? 0) + 1
   const snapshot = buildSnapshot({ issue, generatedAt: new Date().toISOString(), range,
     boards: { overall, ai, tools, rising }, pool: buildPool(candidates), prev: prevSnapshot })
