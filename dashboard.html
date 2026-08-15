@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Radar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="data.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f1f5f9; }
+    a { text-decoration: none; color: inherit; }
+    .repo-card {
+      background: white; border-radius: 12px; padding: 16px;
+      border: 1px solid #e2e8f0; display: block;
+      transition: all 0.2s ease;
+    }
+    .repo-card:hover { border-color: #fdba74; box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+    .repo-card:hover .repo-name { color: #ea580c; }
+    .repo-card:hover .link-icon { opacity: 1; }
+    .trend-card {
+      background: white; border-radius: 12px; padding: 20px;
+      border: 1px solid #e2e8f0; display: block;
+      position: relative; overflow: hidden; transition: all 0.2s ease;
+    }
+    .trend-card:hover { border-color: #fcd34d; box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+    .trend-card:hover .trend-name { color: #d97706; }
+    .hot-row {
+      display: flex; align-items: center; gap: 16px;
+      padding: 12px; border-radius: 12px; transition: all 0.15s ease;
+    }
+    .hot-row:hover { background: white; }
+    .hot-row:hover .hot-name { color: #ea580c; }
+    .hot-row:hover .hot-link { opacity: 1; }
+    .tab-btn {
+      display: flex; align-items: center; gap: 8px;
+      padding: 10px 20px; border-radius: 8px;
+      font-size: 14px; font-weight: 500;
+      border: none; cursor: pointer; transition: all 0.15s ease;
+    }
+    .tab-btn.active { background: #0f172a; color: white; box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+    .tab-btn:not(.active) { background: transparent; color: #64748b; }
+    .tab-btn:not(.active):hover { background: #f8fafc; color: #334155; }
+    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+  const { useState } = React;
+  const h = React.createElement;
+
+  // ══════════════════════════════════════════════════════════
+  //  DATA
+  // ══════════════════════════════════════════════════════════
+  const DATA = window.RADAR_DATA || {generatedAt:"",dateRange:{from:"",to:""},stats:{totalRepos:0,aiCount:0,toolsCount:0,trendingCount:0,totalStars:0,languages:0},ai:[],tools:[],trending:[],weeklyHot:[]};
+
+  // ══════════════════════════════════════════════════════════
+  //  UTILS
+  // ══════════════════════════════════════════════════════════
+  const fmt = (n) => n >= 1e6 ? (n/1e6).toFixed(1)+'M' : n >= 1000 ? (n/1000).toFixed(1)+'k' : ''+n;
+  const LC = { Python:'#3572A5', TypeScript:'#3178C6', JavaScript:'#F1E05A', Go:'#00ADD8', Rust:'#DEA584', Shell:'#89E051', 'C#':'#178600', C:'#555555', HTML:'#E34C26', Markdown:'#083FA1', Dockerfile:'#384D54', Rust:'#DEA584', 'N/A':'#6E7681' };
+
+  // ══════════════════════════════════════════════════════════
+  //  SVG ICONS
+  // ══════════════════════════════════════════════════════════
+  const SP = { fill:"none", stroke:"currentColor", strokeWidth:2, strokeLinecap:"round", strokeLinejoin:"round" };
+  const mkIcon = (paths) => ({size=16, className="", style={}}) =>
+    h('svg', { width:size, height:size, viewBox:"0 0 24 24", ...SP, className, style }, ...paths);
+
+  const IStar = mkIcon([h('polygon',{points:"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2",key:'s'})]);
+  const IFork = mkIcon([h('circle',{cx:12,cy:18,r:3,key:'c1'}),h('circle',{cx:6,cy:6,r:3,key:'c2'}),h('circle',{cx:18,cy:6,r:3,key:'c3'}),h('path',{d:"M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V6",key:'p1'}),h('path',{d:"M12 12v3",key:'p2'})]);
+  const ILink = mkIcon([h('path',{d:"M7 17L17 7",key:'p1'}),h('path',{d:"M7 7h10v10",key:'p2'})]);
+  const IBot = mkIcon([h('path',{d:"M12 8V4H8",key:'p1'}),h('rect',{x:2,y:8,width:20,height:8,rx:2,key:'r'}),h('path',{d:"M2 14h2",key:'p2'}),h('path',{d:"M20 14h2",key:'p3'}),h('path',{d:"M15 13v2",key:'p4'}),h('path',{d:"M9 13v2",key:'p5'})]);
+  const IWrench = mkIcon([h('path',{d:"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z",key:'p'})]);
+  const ITrend = mkIcon([h('polyline',{points:"22 7 13.5 15.5 8.5 10.5 2 17",key:'p1'}),h('polyline',{points:"16 7 22 7 22 13",key:'p2'})]);
+  const IFlame = mkIcon([h('path',{d:"M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z",key:'p'})]);
+  const IZap = mkIcon([h('polygon',{points:"13 2 3 14 12 14 11 22 21 10 12 10 13 2",key:'p'})]);
+  const ICal = mkIcon([h('rect',{x:3,y:4,width:18,height:18,rx:2,key:'r'}),h('line',{x1:16,y1:2,x2:16,y2:6,key:'l1'}),h('line',{x1:8,y1:2,x2:8,y2:6,key:'l2'}),h('line',{x1:3,y1:10,x2:21,y2:10,key:'l3'})]);
+  const IBar = mkIcon([h('line',{x1:12,y1:20,x2:12,y2:10,key:'l1'}),h('line',{x1:18,y1:20,x2:18,y2:4,key:'l2'}),h('line',{x1:6,y1:20,x2:6,y2:16,key:'l3'})]);
+  const IAward = mkIcon([h('path',{d:"m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526",key:'p1'}),h('circle',{cx:12,cy:8,r:6,key:'c'})]);
+  const IUp = mkIcon([h('line',{x1:7,y1:7,x2:17,y2:17,key:'l'}),h('polyline',{points:"17 7 17 17 7 17",key:'p'})]);
+
+  // ══════════════════════════════════════════════════════════
+  //  COMPONENTS
+  // ══════════════════════════════════════════════════════════
+
+  // ── Header ──
+  function Header() {
+    const d = new Date(DATA.generatedAt).toLocaleDateString("zh-CN",{year:"numeric",month:"long",day:"numeric"});
+    return h('div',{className:"relative overflow-hidden rounded-2xl p-8",style:{background:"#0f172a"}},
+      h('div',{className:"absolute inset-0 opacity-30",style:{background:"linear-gradient(135deg,#f97316,#ef4444,#9333ea)"}}),
+      h('div',{className:"absolute rounded-full opacity-10",style:{top:"-30%",right:"-5%",width:280,height:280,background:"#fb923c",filter:"blur(60px)"}}),
+      h('div',{className:"absolute rounded-full opacity-10",style:{bottom:"-20%",left:"-5%",width:200,height:200,background:"#a855f7",filter:"blur(50px)"}}),
+      h('div',{className:"relative"},
+        h('div',{className:"flex items-center gap-3 mb-3"},
+          h('div',{className:"w-10 h-10 rounded-xl flex items-center justify-center",style:{background:"rgba(255,255,255,0.15)"}},
+            h(IZap,{size:20,style:{color:"white"}})),
+          h('h1',{className:"text-3xl font-bold text-white tracking-tight"},"GitHub Radar")),
+        h('p',{className:"text-slate-300 text-sm"}, DATA.dateRange.from+" — "+DATA.dateRange.to),
+        h('div',{className:"flex items-center gap-2 mt-2"},
+          h('div',{className:"w-2 h-2 rounded-full",style:{background:"#34d399"}}),
+          h('span',{className:"text-slate-400 text-xs"},"更新于 "+d))));
+  }
+
+  // ── StatsBar ──
+  const SC = [
+    {icon:IBar, label:"追踪仓库", val:DATA.stats.totalRepos, c:"#3B82F6"},
+    {icon:IStar, label:"Total Stars", val:fmt(DATA.stats.totalStars), c:"#F97316"},
+    {icon:IBot, label:"AI 项目", val:DATA.stats.aiCount, c:"#A855F7"},
+    {icon:IWrench, label:"工具项目", val:DATA.stats.toolsCount, c:"#10B981"}
+  ];
+  function StatsBar() {
+    return h('div',{className:"grid grid-cols-4 gap-4"},
+      SC.map(s => h('div',{key:s.label,className:"bg-white rounded-xl p-5 shadow-sm border border-slate-200"},
+        h('div',{className:"flex items-center gap-3"},
+          h('div',{className:"w-10 h-10 rounded-lg flex items-center justify-center",style:{background:s.c+"18"}},
+            h(s.icon,{size:20,style:{color:s.c}})),
+          h('div',{},
+            h('p',{className:"text-2xl font-bold text-slate-900"},''+s.val),
+            h('p',{className:"text-xs text-slate-500"},s.label))))));
+  }
+
+  // ── RepoCard ──
+  function RepoCard({repo, index}) {
+    const lc = LC[repo.language] || "#6E7681";
+    return h('a',{href:repo.url,target:"_blank",rel:"noopener noreferrer",className:"repo-card block"},
+      h('div',{className:"flex items-start gap-3"},
+        h('img',{src:repo.ownerAvatar,alt:repo.owner,className:"w-10 h-10 rounded-lg flex-shrink-0",
+          onError:e=>{e.target.style.display="none"}}),
+        h('div',{className:"flex-1 min-w-0"},
+          h('div',{className:"flex items-center gap-2"},
+            h('span',{className:"text-xs font-mono text-slate-400"},"#"+(index+1)),
+            h('span',{className:"repo-name font-semibold text-sm text-slate-900 truncate transition-colors"},repo.name),
+            h('span',{className:"link-icon text-slate-300 opacity-0 transition-opacity flex-shrink-0"},h(ILink,{size:12}))),
+          h('p',{className:"text-xs text-slate-500 mt-1 line-clamp-2 leading-relaxed"},repo.description||"No description"),
+          h('div',{className:"flex items-center gap-4 mt-3 flex-wrap"},
+            h('span',{className:"flex items-center gap-1 text-xs text-slate-600"},
+              h(IStar,{size:12,style:{color:"#F59E0B"}}),fmt(repo.stars)),
+            h('span',{className:"flex items-center gap-1 text-xs text-slate-500"},
+              h(IFork,{size:12}),fmt(repo.forks)),
+            repo.language!=="N/A"&&h('span',{className:"flex items-center gap-1.5 text-xs text-slate-500"},
+              h('span',{className:"w-2.5 h-2.5 rounded-full flex-shrink-0",style:{backgroundColor:lc}}),repo.language),
+            repo.topics.length>0&&h('span',{className:"text-xs px-2 py-0.5 rounded-full",style:{color:"#3B82F6",background:"#EFF6FF"}},repo.topics[0])))));
+  }
+
+  // ── RepoSection ──
+  function RepoSection({title, subtitle, icon, repos, iconColor}) {
+    return h('div',{className:"rounded-2xl p-6 border",style:{background:"#F8FAFC",borderColor:"#F1F5F9"}},
+      h('div',{className:"flex items-center gap-3 mb-1"},
+        h('div',{className:"w-8 h-8 rounded-lg flex items-center justify-center",style:{background:iconColor+"18"}},
+          h(icon,{size:16,style:{color:iconColor}})),
+        h('h2',{className:"text-lg font-bold text-slate-900"},title),
+        h('span',{className:"text-xs bg-white px-2 py-0.5 rounded-full border border-slate-200 text-slate-400"},''+repos.length)),
+      h('p',{className:"text-xs text-slate-500 mb-4 ml-11"},subtitle),
+      h('div',{className:"grid grid-cols-2 gap-3"},
+        repos.map((r,i)=>h(RepoCard,{key:r.name,repo:r,index:i}))));
+  }
+
+  // ── TrendingSection ──
+  function TrendingSection({repos}) {
+    return h('div',{className:"rounded-2xl p-6 border",style:{background:"#F8FAFC",borderColor:"#F1F5F9"}},
+      h('div',{className:"flex items-center gap-3 mb-1"},
+        h('div',{className:"w-8 h-8 rounded-lg flex items-center justify-center",style:{background:"#FEF3C7"}},
+          h(ITrend,{size:16,style:{color:"#D97706"}})),
+        h('h2',{className:"text-lg font-bold text-slate-900"},"本周新创趋势"),
+        h('span',{className:"text-xs bg-white px-2 py-0.5 rounded-full border border-slate-200 text-slate-400"},''+repos.length)),
+      h('p',{className:"text-xs text-slate-500 mb-4 ml-11"},"最近 7 天内新创建的明星项目"),
+      h('div',{className:"grid grid-cols-2 gap-3"},
+        repos.map((r,i)=>{
+          const lc = LC[r.language]||"#6E7681";
+          return h('a',{key:r.name,href:r.url,target:"_blank",rel:"noopener noreferrer",className:"trend-card block"},
+            h('div',{className:"absolute text-xs font-bold w-7 h-7 rounded-full flex items-center justify-center text-white",
+              style:{top:12,right:12,background:"#F59E0B"}},''+(i+1)),
+            h('div',{className:"flex items-center gap-2 mb-2"},
+              h('img',{src:r.ownerAvatar,alt:r.owner,className:"w-6 h-6 rounded",onError:e=>{e.target.style.display="none"}}),
+              h('span',{className:"trend-name font-semibold text-sm text-slate-900 transition-colors"},r.name)),
+            h('p',{className:"text-xs text-slate-500 mb-3 line-clamp-2 leading-relaxed"},r.description||"No description"),
+            h('div',{className:"flex items-center gap-4"},
+              h('span',{className:"flex items-center gap-1 text-xs text-slate-600"},
+                h(IStar,{size:12,style:{color:"#F59E0B"}}),fmt(r.stars)),
+              r.language!=="N/A"&&h('span',{className:"flex items-center gap-1.5 text-xs text-slate-500"},
+                h('span',{className:"w-2.5 h-2.5 rounded-full",style:{backgroundColor:lc}}),r.language),
+              h('span',{className:"flex items-center gap-1 text-xs text-slate-400"},
+                h(ICal,{size:12}),r.createdAt)));
+        })));
+  }
+
+  // ── WeeklyHot ──
+  function WeeklyHot({repos}) {
+    const rc = ["#F97316","#64748B","#D97706"];
+    return h('div',{className:"rounded-2xl p-6 border",style:{background:"#F8FAFC",borderColor:"#F1F5F9"}},
+      h('div',{className:"flex items-center gap-3 mb-1"},
+        h('div',{className:"w-8 h-8 rounded-lg flex items-center justify-center",style:{background:"#FEE2E2"}},
+          h(IFlame,{size:16,style:{color:"#EF4444"}})),
+        h('h2',{className:"text-lg font-bold text-slate-900"},"本周全站 Top 10")),
+      h('p',{className:"text-xs text-slate-500 mb-5 ml-11"},"近 7 天活跃度最高的仓库"),
+      h('div',{},
+        repos.map((r,i)=>{
+          const lc = LC[r.language]||"#6E7681";
+          const top3 = i<3;
+          return h('a',{key:r.name,href:r.url,target:"_blank",rel:"noopener noreferrer",className:"hot-row block"},
+            h('div',{className:"w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold flex-shrink-0",
+              style:top3?{background:rc[i],color:"white"}:{background:"#F1F5F9",color:"#94A3B8"}},''+(i+1)),
+            h('img',{src:r.ownerAvatar,alt:r.owner,className:"w-8 h-8 rounded-lg flex-shrink-0",
+              onError:e=>{e.target.style.display="none"}}),
+            h('div',{className:"flex-1 min-w-0"},
+              h('p',{className:"hot-name font-medium text-sm text-slate-900 transition-colors truncate"},r.name),
+              h('p',{className:"text-xs text-slate-500 truncate"},r.description)),
+            h('div',{className:"flex items-center gap-4 flex-shrink-0"},
+              r.language!=="N/A"&&h('span',{className:"flex items-center gap-1.5 text-xs text-slate-500"},
+                h('span',{className:"w-2 h-2 rounded-full",style:{backgroundColor:lc}}),r.language),
+              h('span',{className:"flex items-center gap-1 text-sm font-semibold text-slate-700 min-w-16 justify-end"},
+                h(IStar,{size:14,style:{color:"#F59E0B"}}),fmt(r.stars)),
+              h('span',{className:"hot-link text-slate-300 opacity-0 transition-opacity"},h(IUp,{size:14}))));
+        })));
+  }
+
+  // ── Footer ──
+  function Footer() {
+    return h('div',{className:"text-center py-4"},
+      h('p',{className:"text-xs text-slate-400"},"Powered by GitHub Radar · Data from GitHub Search API · Updated weekly"));
+  }
+
+  // ══════════════════════════════════════════════════════════
+  //  APP
+  // ══════════════════════════════════════════════════════════
+  function App() {
+    const [tab, setTab] = useState("overview");
+    return h('div',{className:"min-h-screen p-6",style:{background:"#F1F5F9",fontFamily:"-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"}},
+      h('div',{className:"max-w-6xl mx-auto space-y-6"},
+        h(Header),
+        h(StatsBar),
+        // Tabs
+        h('div',{className:"flex items-center gap-1 bg-white p-1 rounded-xl border border-slate-200 shadow-sm"},
+          h('button',{className:"tab-btn"+(tab==="overview"?" active":""),onClick:()=>setTab("overview")},
+            h(IBar,{size:16}),"Overview"),
+          h('button',{className:"tab-btn"+(tab==="leaderboard"?" active":""),onClick:()=>setTab("leaderboard")},
+            h(IAward,{size:16}),"Leaderboard")),
+        // Content
+        tab==="overview" && h('div',{className:"space-y-6"},
+          h(RepoSection,{title:"AI / LLM / Agent",subtitle:"近期最活跃的 AI 与大语言模型项目",icon:IBot,repos:DATA.ai,iconColor:"#A855F7"}),
+          h(RepoSection,{title:"工具 & 效率",subtitle:"开发者工具、命令行工具与效率利器",icon:IWrench,repos:DATA.tools,iconColor:"#10B981"}),
+          h(TrendingSection,{repos:DATA.trending})),
+        tab==="leaderboard" && h(WeeklyHot,{repos:DATA.weeklyHot}),
+        h(Footer)));
+  }
+
+  // ── Render ──
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+  root.render(h(App));
+  </script>
+</body>
+</html>
