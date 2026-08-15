@@ -1,1 +1,26 @@
-/* Task 2 填充 */
+:root {
+  --bg: #f6f8fa;
+  --surface: #ffffff;
+  --border: #d0d7de;
+  --border-muted: #d8dee4;
+  --text: #1f2328;
+  --text-muted: #656d76;
+  --text-faint: #8c959f;
+  --accent: #0969da;
+  --success: #1a7f37;
+  --success-bg: #f0fff4;
+  --success-border: #dafbe1;
+  --danger: #cf222e;
+  --purple: #8250df;
+  --purple-bg: #faf5ff;
+  --purple-border: #e6d5f7;
+  --topbar: #24292f;
+  --badge-issue-bg: #238636;
+  --badge-issue-fg: #aff5b4;
+  --rank-1: #bc4c00;
+  --rank-2: #8250df;
+  --rank-3: #9a6700;
+  --radius: 6px;
+  --radius-lg: 12px;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
