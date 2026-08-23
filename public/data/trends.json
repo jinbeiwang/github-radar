@@ -1,5 +1,94 @@
 {
   "repos": {
+    "deepseek-ai/deepseek-harness": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 101819,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 102471,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 103184,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 117979,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 185493,
+          "rank": 1,
+          "weeklyGain": 67526
+        }
+      ]
+    },
+    "mattpocock/skills": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 217769,
+          "rank": 13,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 217802,
+          "rank": 13,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 217829,
+          "rank": 13,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 218477,
+          "rank": 13,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 232331,
+          "rank": 2,
+          "weeklyGain": 13854
+        }
+      ]
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 114722,
+          "rank": 3,
+          "weeklyGain": 10737
+        }
+      ]
+    },
     "public-apis/public-apis": {
       "weeks": [
         {
@@ -28,6 +117,1097 @@
           "date": "2026-08-16",
           "stars": 460317,
           "rank": 1,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 468703,
+          "rank": 4,
+          "weeklyGain": 8386
+        }
+      ]
+    },
+    "openai/codex": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 113718,
+          "rank": 5,
+          "weeklyGain": 7575
+        }
+      ]
+    },
+    "earendil-works/pi": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 95566,
+          "rank": 6,
+          "weeklyGain": 4583
+        }
+      ]
+    },
+    "santifer/career-ops": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 67807,
+          "rank": 7,
+          "weeklyGain": 3848
+        }
+      ]
+    },
+    "obra/superpowers": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 272253,
+          "rank": 8,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 272261,
+          "rank": 8,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 272275,
+          "rank": 8,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 272535,
+          "rank": 8,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 276246,
+          "rank": 8,
+          "weeklyGain": 3711
+        }
+      ]
+    },
+    "nexu-io/open-design": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 90479,
+          "rank": 9,
+          "weeklyGain": 3468
+        }
+      ]
+    },
+    "NousResearch/hermes-agent": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 230756,
+          "rank": 12,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 230771,
+          "rank": 12,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 230778,
+          "rank": 12,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 231141,
+          "rank": 12,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 234436,
+          "rank": 10,
+          "weeklyGain": 3295
+        }
+      ]
+    },
+    "firecrawl/firecrawl": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167505,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167517,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167529,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167846,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 171020,
+          "rank": 11,
+          "weeklyGain": 3174
+        }
+      ]
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 119925,
+          "rank": 12,
+          "weeklyGain": 2840
+        }
+      ]
+    },
+    "Graphify-Labs/graphify": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 109606,
+          "rank": 13,
+          "weeklyGain": 2838
+        }
+      ]
+    },
+    "anomalyco/opencode": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 197581,
+          "rank": 15,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 197588,
+          "rank": 15,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 197597,
+          "rank": 15,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 197840,
+          "rank": 15,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 200392,
+          "rank": 14,
+          "weeklyGain": 2552
+        }
+      ]
+    },
+    "unslothai/unsloth": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 74416,
+          "rank": 15,
+          "weeklyGain": 2309
+        }
+      ]
+    },
+    "pbakaus/impeccable": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 61663,
+          "rank": 16,
+          "weeklyGain": 2206
+        }
+      ]
+    },
+    "ripienaar/free-for-dev": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 133971,
+          "rank": 17,
+          "weeklyGain": 2059
+        }
+      ]
+    },
+    "JuliusBrussee/caveman": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 100355,
+          "rank": 18,
+          "weeklyGain": 1941
+        }
+      ]
+    },
+    "affaan-m/ECC": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 240184,
+          "rank": 11,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 240184,
+          "rank": 11,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 240188,
+          "rank": 11,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 240321,
+          "rank": 11,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 242223,
+          "rank": 19,
+          "weeklyGain": 1902
+        }
+      ]
+    },
+    "immich-app/immich": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 112379,
+          "rank": 20,
+          "weeklyGain": 1721
+        }
+      ]
+    },
+    "D4Vinci/Scrapling": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 75914,
+          "rank": 21,
+          "weeklyGain": 1710
+        }
+      ]
+    },
+    "yt-dlp/yt-dlp": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 184677,
+          "rank": 21,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 186323,
+          "rank": 22,
+          "weeklyGain": 1646
+        }
+      ]
+    },
+    "koala73/worldmonitor": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 83818,
+          "rank": 23,
+          "weeklyGain": 1645
+        }
+      ]
+    },
+    "addyosmani/agent-skills": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 89136,
+          "rank": 24,
+          "weeklyGain": 1609
+        }
+      ]
+    },
+    "github/spec-kit": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 130847,
+          "rank": 25,
+          "weeklyGain": 1590
+        }
+      ]
+    },
+    "Significant-Gravitas/AutoGPT": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 186607,
+          "rank": 20,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 186607,
+          "rank": 20,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 186608,
+          "rank": 20,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 186627,
+          "rank": 20,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 186781,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "ollama/ollama": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 178524,
+          "rank": 22,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 178525,
+          "rank": 22,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 178532,
+          "rank": 22,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 178622,
+          "rank": 23,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 179221,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "anthropics/skills": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 169435,
+          "rank": 25,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 169438,
+          "rank": 25,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 169447,
+          "rank": 25,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 169581,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 171049,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "f/prompts.chat": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167140,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167140,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167141,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167231,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 167773,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "huggingface/transformers": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 164089,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 164089,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 164092,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 164125,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 164349,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "Snailclimb/JavaGuide": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 157959,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "ohmyzsh/ohmyzsh": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 189195,
+          "rank": 18,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 189195,
+          "rank": 18,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 189196,
+          "rank": 18,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 189220,
+          "rank": 18,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 189316,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "microsoft/PowerToys": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 137775,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 137776,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 137779,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 137791,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 137973,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "excalidraw/excalidraw": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 129611,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 129615,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 129617,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 129698,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 130238,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "junegunn/fzf": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 82527,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 82528,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 82528,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 82546,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 82614,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "rtk-ai/rtk": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 76177,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 76178,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 76179,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 76247,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 77089,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "hesreallyhim/awesome-claude-code": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 52325,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 52325,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 52324,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 52390,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 52833,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "stablyai/orca": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 45781,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 45789,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 45803,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 46175,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 51338,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "CherryHQ/cherry-studio": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 50492,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 50493,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 50493,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 50524,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 50927,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 49189,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 49190,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 49189,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 49230,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 49587,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "cli/cli": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 45824,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 45824,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 45824,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 45835,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 45942,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "s1dashu/ip-as-logo-skill": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 3796,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "yetone/cumora": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 2903,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "CopilotKit/OpenBot": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 2347,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "MengTo/threeui": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 1992,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "wang2122/sprix-sage-router": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 1243,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "cinderline/northcinder": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 1205,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "vvxw/deploy-vercel": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 1141,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "Leutenegger/watermarks-remover": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 935,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "Leutenegger/vanity-eth": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 803,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "Spielewoy/autoprompt-skill": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 711,
+          "rank": 0,
           "weeklyGain": 0
         }
       ]
@@ -224,38 +1404,6 @@
         }
       ]
     },
-    "obra/superpowers": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 272253,
-          "rank": 8,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 272261,
-          "rank": 8,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 272275,
-          "rank": 8,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 272535,
-          "rank": 8,
-          "weeklyGain": 0
-        }
-      ]
-    },
     "react/react": {
       "weeks": [
         {
@@ -320,102 +1468,6 @@
         }
       ]
     },
-    "affaan-m/ECC": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 240184,
-          "rank": 11,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 240184,
-          "rank": 11,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 240188,
-          "rank": 11,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 240321,
-          "rank": 11,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "NousResearch/hermes-agent": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 230756,
-          "rank": 12,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 230771,
-          "rank": 12,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 230778,
-          "rank": 12,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 231141,
-          "rank": 12,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "mattpocock/skills": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 217769,
-          "rank": 13,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 217802,
-          "rank": 13,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 217829,
-          "rank": 13,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 218477,
-          "rank": 13,
-          "weeklyGain": 0
-        }
-      ]
-    },
     "n8n-io/n8n": {
       "weeks": [
         {
@@ -444,38 +1496,6 @@
           "date": "2026-08-16",
           "stars": 200797,
           "rank": 14,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "anomalyco/opencode": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 197581,
-          "rank": 15,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 197588,
-          "rank": 15,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 197597,
-          "rank": 15,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 197840,
-          "rank": 15,
           "weeklyGain": 0
         }
       ]
@@ -544,38 +1564,6 @@
         }
       ]
     },
-    "ohmyzsh/ohmyzsh": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 189195,
-          "rank": 18,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 189195,
-          "rank": 18,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 189196,
-          "rank": 18,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 189220,
-          "rank": 18,
-          "weeklyGain": 0
-        }
-      ]
-    },
     "microsoft/vscode": {
       "weeks": [
         {
@@ -608,49 +1596,6 @@
         }
       ]
     },
-    "Significant-Gravitas/AutoGPT": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 186607,
-          "rank": 20,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 186607,
-          "rank": 20,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 186608,
-          "rank": 20,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 186627,
-          "rank": 20,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "yt-dlp/yt-dlp": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 184677,
-          "rank": 21,
-          "weeklyGain": 0
-        }
-      ]
-    },
     "avelino/awesome-go": {
       "weeks": [
         {
@@ -679,38 +1624,6 @@
           "date": "2026-08-16",
           "stars": 181164,
           "rank": 22,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "ollama/ollama": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 178524,
-          "rank": 22,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 178525,
-          "rank": 22,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 178532,
-          "rank": 22,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 178622,
-          "rank": 23,
           "weeklyGain": 0
         }
       ]
@@ -779,134 +1692,6 @@
         }
       ]
     },
-    "anthropics/skills": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 169435,
-          "rank": 25,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 169438,
-          "rank": 25,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 169447,
-          "rank": 25,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 169581,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "firecrawl/firecrawl": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167505,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167517,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167529,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167846,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "f/prompts.chat": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167140,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167140,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167141,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167231,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "huggingface/transformers": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 164089,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 164089,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 164092,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 164125,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
     "langflow-ai/langflow": {
       "weeks": [
         {
@@ -934,326 +1719,6 @@
           "issue": 1,
           "date": "2026-08-16",
           "stars": 153282,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "microsoft/PowerToys": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 137775,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 137776,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 137779,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 137791,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "excalidraw/excalidraw": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 129611,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 129615,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 129617,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 129698,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "junegunn/fzf": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 82527,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 82528,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 82528,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 82546,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "rtk-ai/rtk": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 76177,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 76178,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 76179,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 76247,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "hesreallyhim/awesome-claude-code": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 52325,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 52325,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 52324,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 52390,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "CherryHQ/cherry-studio": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 50492,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 50493,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 50493,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 50524,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "ChromeDevTools/chrome-devtools-mcp": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 49189,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 49190,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 49189,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 49230,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "stablyai/orca": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 45781,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 45789,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 45803,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 46175,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "cli/cli": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 45824,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 45824,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 45824,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 45835,
-          "rank": 0,
-          "weeklyGain": 0
-        }
-      ]
-    },
-    "deepseek-ai/deepseek-harness": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 101819,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 102471,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 103184,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 117979,
           "rank": 0,
           "weeklyGain": 0
         }
