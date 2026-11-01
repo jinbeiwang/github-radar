@@ -164,6 +164,21 @@
         "newEntries": 7,
         "droppedEntries": 7
       }
+    },
+    {
+      "issue": 12,
+      "date": "2026-11-01",
+      "file": "snapshots/2026-11-01.json",
+      "stats": {
+        "totalRepos": 51,
+        "totalStars": 6136845,
+        "weeklyStarGain": 151075,
+        "aiCount": 12,
+        "toolsCount": 12,
+        "languageCount": 10,
+        "newEntries": 8,
+        "droppedEntries": 8
+      }
     }
   ]
 }
