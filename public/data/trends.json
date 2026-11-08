@@ -22,98 +22,133 @@
           "stars": 416717,
           "rank": 1,
           "weeklyGain": 36313
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 442048,
+          "rank": 1,
+          "weeklyGain": 25331
         }
       ]
     },
-    "pbakaus/impeccable": {
+    "Ebony-Vinyl/dsh-our-free-model": {
       "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 65864,
+          "rank": 2,
+          "weeklyGain": 10775
+        }
+      ]
+    },
+    "mattpocock/skills": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 217769,
+          "rank": 13,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 217802,
+          "rank": 13,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 217829,
+          "rank": 13,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 218477,
+          "rank": 13,
+          "weeklyGain": 0
+        },
         {
           "issue": 2,
           "date": "2026-08-23",
-          "stars": 61663,
-          "rank": 16,
-          "weeklyGain": 2206
+          "stars": 232331,
+          "rank": 2,
+          "weeklyGain": 13854
         },
         {
           "issue": 3,
           "date": "2026-08-30",
-          "stars": 63890,
-          "rank": 13,
-          "weeklyGain": 2227
+          "stars": 241300,
+          "rank": 2,
+          "weeklyGain": 8969
         },
         {
           "issue": 4,
           "date": "2026-09-06",
-          "stars": 65874,
-          "rank": 14,
-          "weeklyGain": 1984
+          "stars": 253189,
+          "rank": 1,
+          "weeklyGain": 11889
         },
         {
-          "issue": 5,
-          "date": "2026-09-13",
-          "stars": 67687,
-          "rank": 19,
-          "weeklyGain": 1813
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 266064,
+          "rank": 0,
+          "weeklyGain": 0
         },
         {
           "issue": 7,
           "date": "2026-09-27",
-          "stars": 71653,
-          "rank": 10,
-          "weeklyGain": 2406
+          "stars": 270410,
+          "rank": 6,
+          "weeklyGain": 4346
         },
         {
           "issue": 8,
           "date": "2026-10-04",
-          "stars": 75674,
-          "rank": 7,
-          "weeklyGain": 4021
+          "stars": 275615,
+          "rank": 4,
+          "weeklyGain": 5205
         },
         {
           "issue": 9,
           "date": "2026-10-11",
-          "stars": 79599,
-          "rank": 7,
-          "weeklyGain": 3925
+          "stars": 285151,
+          "rank": 1,
+          "weeklyGain": 9536
         },
         {
           "issue": 10,
           "date": "2026-10-18",
-          "stars": 82464,
-          "rank": 18,
-          "weeklyGain": 2865
+          "stars": 295400,
+          "rank": 2,
+          "weeklyGain": 10249
         },
         {
           "issue": 11,
           "date": "2026-10-25",
-          "stars": 86717,
-          "rank": 12,
-          "weeklyGain": 4253
+          "stars": 302717,
+          "rank": 5,
+          "weeklyGain": 7317
         },
         {
           "issue": 12,
           "date": "2026-11-01",
-          "stars": 98726,
-          "rank": 2,
-          "weeklyGain": 12009
-        }
-      ]
-    },
-    "debpalash/VoiceStudio": {
-      "weeks": [
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 85397,
-          "rank": 2,
-          "weeklyGain": 11507
+          "stars": 308793,
+          "rank": 6,
+          "weeklyGain": 6076
         },
         {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 97235,
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 318059,
           "rank": 3,
-          "weeklyGain": 11838
+          "weeklyGain": 9266
         }
       ]
     },
@@ -223,6 +258,165 @@
           "stars": 267854,
           "rank": 4,
           "weeklyGain": 7014
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 276060,
+          "rank": 4,
+          "weeklyGain": 8206
+        }
+      ]
+    },
+    "D4Vinci/Scrapling": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 75914,
+          "rank": 21,
+          "weeklyGain": 1710
+        },
+        {
+          "issue": 5,
+          "date": "2026-09-13",
+          "stars": 80603,
+          "rank": 15,
+          "weeklyGain": 1998
+        },
+        {
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 82489,
+          "rank": 20,
+          "weeklyGain": 1886
+        },
+        {
+          "issue": 7,
+          "date": "2026-09-27",
+          "stars": 83963,
+          "rank": 23,
+          "weeklyGain": 1474
+        },
+        {
+          "issue": 8,
+          "date": "2026-10-04",
+          "stars": 85547,
+          "rank": 22,
+          "weeklyGain": 1584
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 99513,
+          "rank": 5,
+          "weeklyGain": 8165
+        }
+      ]
+    },
+    "pbakaus/impeccable": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 61663,
+          "rank": 16,
+          "weeklyGain": 2206
+        },
+        {
+          "issue": 3,
+          "date": "2026-08-30",
+          "stars": 63890,
+          "rank": 13,
+          "weeklyGain": 2227
+        },
+        {
+          "issue": 4,
+          "date": "2026-09-06",
+          "stars": 65874,
+          "rank": 14,
+          "weeklyGain": 1984
+        },
+        {
+          "issue": 5,
+          "date": "2026-09-13",
+          "stars": 67687,
+          "rank": 19,
+          "weeklyGain": 1813
+        },
+        {
+          "issue": 7,
+          "date": "2026-09-27",
+          "stars": 71653,
+          "rank": 10,
+          "weeklyGain": 2406
+        },
+        {
+          "issue": 8,
+          "date": "2026-10-04",
+          "stars": 75674,
+          "rank": 7,
+          "weeklyGain": 4021
+        },
+        {
+          "issue": 9,
+          "date": "2026-10-11",
+          "stars": 79599,
+          "rank": 7,
+          "weeklyGain": 3925
+        },
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 82464,
+          "rank": 18,
+          "weeklyGain": 2865
+        },
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 86717,
+          "rank": 12,
+          "weeklyGain": 4253
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 98726,
+          "rank": 2,
+          "weeklyGain": 12009
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 105806,
+          "rank": 6,
+          "weeklyGain": 7080
+        }
+      ]
+    },
+    "debpalash/VoiceStudio": {
+      "weeks": [
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 85397,
+          "rank": 2,
+          "weeklyGain": 11507
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 97235,
+          "rank": 3,
+          "weeklyGain": 11838
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 104273,
+          "rank": 7,
+          "weeklyGain": 7038
         }
       ]
     },
@@ -332,108 +526,49 @@
           "stars": 112010,
           "rank": 5,
           "weeklyGain": 6836
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 118851,
+          "rank": 8,
+          "weeklyGain": 6841
         }
       ]
     },
-    "mattpocock/skills": {
+    "thedotmack/claude-mem": {
       "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 217769,
-          "rank": 13,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 217802,
-          "rank": 13,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 217829,
-          "rank": 13,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 218477,
-          "rank": 13,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 2,
-          "date": "2026-08-23",
-          "stars": 232331,
-          "rank": 2,
-          "weeklyGain": 13854
-        },
-        {
-          "issue": 3,
-          "date": "2026-08-30",
-          "stars": 241300,
-          "rank": 2,
-          "weeklyGain": 8969
-        },
-        {
-          "issue": 4,
-          "date": "2026-09-06",
-          "stars": 253189,
-          "rank": 1,
-          "weeklyGain": 11889
-        },
-        {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 266064,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 7,
-          "date": "2026-09-27",
-          "stars": 270410,
-          "rank": 6,
-          "weeklyGain": 4346
-        },
-        {
-          "issue": 8,
-          "date": "2026-10-04",
-          "stars": 275615,
-          "rank": 4,
-          "weeklyGain": 5205
-        },
         {
           "issue": 9,
           "date": "2026-10-11",
-          "stars": 285151,
-          "rank": 1,
-          "weeklyGain": 9536
-        },
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 295400,
-          "rank": 2,
-          "weeklyGain": 10249
-        },
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 302717,
-          "rank": 5,
-          "weeklyGain": 7317
+          "stars": 99443,
+          "rank": 9,
+          "weeklyGain": 3656
         },
         {
           "issue": 12,
           "date": "2026-11-01",
-          "stars": 308793,
-          "rank": 6,
-          "weeklyGain": 6076
+          "stars": 108366,
+          "rank": 10,
+          "weeklyGain": 5453
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 114647,
+          "rank": 9,
+          "weeklyGain": 6281
+        }
+      ]
+    },
+    "sherlock-project/sherlock": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 101469,
+          "rank": 10,
+          "weeklyGain": 6112
         }
       ]
     },
@@ -543,80 +678,70 @@
           "stars": 294328,
           "rank": 7,
           "weeklyGain": 6029
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 299364,
+          "rank": 11,
+          "weeklyGain": 5036
         }
       ]
     },
-    "Graphify-Labs/graphify": {
+    "Leonxlnx/taste-skill": {
       "weeks": [
-        {
-          "issue": 2,
-          "date": "2026-08-23",
-          "stars": 109606,
-          "rank": 13,
-          "weeklyGain": 2838
-        },
         {
           "issue": 3,
           "date": "2026-08-30",
-          "stars": 112410,
-          "rank": 12,
-          "weeklyGain": 2804
-        },
-        {
-          "issue": 4,
-          "date": "2026-09-06",
-          "stars": 115148,
-          "rank": 8,
-          "weeklyGain": 2738
-        },
-        {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 119722,
-          "rank": 8,
-          "weeklyGain": 3421
+          "stars": 82271,
+          "rank": 11,
+          "weeklyGain": 2894
         },
         {
           "issue": 7,
           "date": "2026-09-27",
-          "stars": 121734,
-          "rank": 16,
-          "weeklyGain": 2012
-        },
-        {
-          "issue": 8,
-          "date": "2026-10-04",
-          "stars": 123640,
-          "rank": 15,
-          "weeklyGain": 1906
-        },
-        {
-          "issue": 9,
-          "date": "2026-10-11",
-          "stars": 125388,
-          "rank": 19,
-          "weeklyGain": 1748
+          "stars": 90463,
+          "rank": 18,
+          "weeklyGain": 1854
         },
         {
           "issue": 10,
           "date": "2026-10-18",
-          "stars": 127943,
-          "rank": 20,
-          "weeklyGain": 2555
+          "stars": 98565,
+          "rank": 9,
+          "weeklyGain": 4024
         },
         {
           "issue": 11,
           "date": "2026-10-25",
-          "stars": 134615,
-          "rank": 6,
-          "weeklyGain": 6672
+          "stars": 102149,
+          "rank": 15,
+          "weeklyGain": 3584
         },
         {
           "issue": 12,
           "date": "2026-11-01",
-          "stars": 140221,
-          "rank": 8,
-          "weeklyGain": 5606
+          "stars": 107341,
+          "rank": 12,
+          "weeklyGain": 5192
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 111800,
+          "rank": 12,
+          "weeklyGain": 4459
+        }
+      ]
+    },
+    "Niko1221/Strata": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 41714,
+          "rank": 13,
+          "weeklyGain": 4406
         }
       ]
     },
@@ -712,95 +837,13 @@
           "stars": 310294,
           "rank": 9,
           "weeklyGain": 5553
-        }
-      ]
-    },
-    "thedotmack/claude-mem": {
-      "weeks": [
-        {
-          "issue": 9,
-          "date": "2026-10-11",
-          "stars": 99443,
-          "rank": 9,
-          "weeklyGain": 3656
         },
         {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 108366,
-          "rank": 10,
-          "weeklyGain": 5453
-        }
-      ]
-    },
-    "Panniantong/Agent-Reach": {
-      "weeks": [
-        {
-          "issue": 4,
-          "date": "2026-09-06",
-          "stars": 78296,
-          "rank": 18,
-          "weeklyGain": 1654
-        },
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 98841,
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 314313,
           "rank": 14,
-          "weeklyGain": 3220
-        },
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 102013,
-          "rank": 17,
-          "weeklyGain": 3172
-        },
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 107380,
-          "rank": 11,
-          "weeklyGain": 5367
-        }
-      ]
-    },
-    "Leonxlnx/taste-skill": {
-      "weeks": [
-        {
-          "issue": 3,
-          "date": "2026-08-30",
-          "stars": 82271,
-          "rank": 11,
-          "weeklyGain": 2894
-        },
-        {
-          "issue": 7,
-          "date": "2026-09-27",
-          "stars": 90463,
-          "rank": 18,
-          "weeklyGain": 1854
-        },
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 98565,
-          "rank": 9,
-          "weeklyGain": 4024
-        },
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 102149,
-          "rank": 15,
-          "weeklyGain": 3584
-        },
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 107341,
-          "rank": 12,
-          "weeklyGain": 5192
+          "weeklyGain": 4019
         }
       ]
     },
@@ -812,6 +855,309 @@
           "stars": 76758,
           "rank": 13,
           "weeklyGain": 5097
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 80752,
+          "rank": 15,
+          "weeklyGain": 3994
+        }
+      ]
+    },
+    "Graphify-Labs/graphify": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 109606,
+          "rank": 13,
+          "weeklyGain": 2838
+        },
+        {
+          "issue": 3,
+          "date": "2026-08-30",
+          "stars": 112410,
+          "rank": 12,
+          "weeklyGain": 2804
+        },
+        {
+          "issue": 4,
+          "date": "2026-09-06",
+          "stars": 115148,
+          "rank": 8,
+          "weeklyGain": 2738
+        },
+        {
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 119722,
+          "rank": 8,
+          "weeklyGain": 3421
+        },
+        {
+          "issue": 7,
+          "date": "2026-09-27",
+          "stars": 121734,
+          "rank": 16,
+          "weeklyGain": 2012
+        },
+        {
+          "issue": 8,
+          "date": "2026-10-04",
+          "stars": 123640,
+          "rank": 15,
+          "weeklyGain": 1906
+        },
+        {
+          "issue": 9,
+          "date": "2026-10-11",
+          "stars": 125388,
+          "rank": 19,
+          "weeklyGain": 1748
+        },
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 127943,
+          "rank": 20,
+          "weeklyGain": 2555
+        },
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 134615,
+          "rank": 6,
+          "weeklyGain": 6672
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 140221,
+          "rank": 8,
+          "weeklyGain": 5606
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 144166,
+          "rank": 16,
+          "weeklyGain": 3945
+        }
+      ]
+    },
+    "github/spec-kit": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 130847,
+          "rank": 25,
+          "weeklyGain": 1590
+        },
+        {
+          "issue": 4,
+          "date": "2026-09-06",
+          "stars": 133639,
+          "rank": 23,
+          "weeklyGain": 1401
+        },
+        {
+          "issue": 5,
+          "date": "2026-09-13",
+          "stars": 136121,
+          "rank": 10,
+          "weeklyGain": 2482
+        },
+        {
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 138007,
+          "rank": 19,
+          "weeklyGain": 1886
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 148529,
+          "rank": 17,
+          "weeklyGain": 3899
+        }
+      ]
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "weeks": [
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 114722,
+          "rank": 3,
+          "weeklyGain": 10737
+        },
+        {
+          "issue": 3,
+          "date": "2026-08-30",
+          "stars": 118641,
+          "rank": 5,
+          "weeklyGain": 3919
+        },
+        {
+          "issue": 4,
+          "date": "2026-09-06",
+          "stars": 120907,
+          "rank": 12,
+          "weeklyGain": 2266
+        },
+        {
+          "issue": 5,
+          "date": "2026-09-13",
+          "stars": 122972,
+          "rank": 14,
+          "weeklyGain": 2065
+        },
+        {
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 124777,
+          "rank": 21,
+          "weeklyGain": 1805
+        },
+        {
+          "issue": 7,
+          "date": "2026-09-27",
+          "stars": 126195,
+          "rank": 25,
+          "weeklyGain": 1418
+        },
+        {
+          "issue": 8,
+          "date": "2026-10-04",
+          "stars": 128324,
+          "rank": 13,
+          "weeklyGain": 2129
+        },
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 132503,
+          "rank": 17,
+          "weeklyGain": 2943
+        },
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 134943,
+          "rank": 24,
+          "weeklyGain": 2440
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 140871,
+          "rank": 18,
+          "weeklyGain": 3841
+        }
+      ]
+    },
+    "public-apis/public-apis": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 458890,
+          "rank": 1,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 458936,
+          "rank": 1,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 458994,
+          "rank": 1,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 460317,
+          "rank": 1,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 468703,
+          "rank": 4,
+          "weeklyGain": 8386
+        },
+        {
+          "issue": 3,
+          "date": "2026-08-30",
+          "stars": 472965,
+          "rank": 4,
+          "weeklyGain": 4262
+        },
+        {
+          "issue": 4,
+          "date": "2026-09-06",
+          "stars": 476082,
+          "rank": 5,
+          "weeklyGain": 3117
+        },
+        {
+          "issue": 5,
+          "date": "2026-09-13",
+          "stars": 479540,
+          "rank": 6,
+          "weeklyGain": 3458
+        },
+        {
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 481722,
+          "rank": 15,
+          "weeklyGain": 2182
+        },
+        {
+          "issue": 7,
+          "date": "2026-09-27",
+          "stars": 483659,
+          "rank": 17,
+          "weeklyGain": 1937
+        },
+        {
+          "issue": 8,
+          "date": "2026-10-04",
+          "stars": 485966,
+          "rank": 11,
+          "weeklyGain": 2307
+        },
+        {
+          "issue": 9,
+          "date": "2026-10-11",
+          "stars": 487385,
+          "rank": 24,
+          "weeklyGain": 1419
+        },
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 489860,
+          "rank": 21,
+          "weeklyGain": 2475
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 497131,
+          "rank": 19,
+          "weeklyGain": 3216
         }
       ]
     },
@@ -893,6 +1239,281 @@
           "stars": 143577,
           "rank": 14,
           "weeklyGain": 3511
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 146673,
+          "rank": 20,
+          "weeklyGain": 3096
+        }
+      ]
+    },
+    "anthropics/skills": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 169435,
+          "rank": 25,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 169438,
+          "rank": 25,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 169447,
+          "rank": 25,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 169581,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 171049,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 4,
+          "date": "2026-09-06",
+          "stars": 174673,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 5,
+          "date": "2026-09-13",
+          "stars": 176031,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 7,
+          "date": "2026-09-27",
+          "stars": 178591,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 8,
+          "date": "2026-10-04",
+          "stars": 179574,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 9,
+          "date": "2026-10-11",
+          "stars": 180406,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 186061,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 189050,
+          "rank": 21,
+          "weeklyGain": 2989
+        }
+      ]
+    },
+    "Panniantong/Agent-Reach": {
+      "weeks": [
+        {
+          "issue": 4,
+          "date": "2026-09-06",
+          "stars": 78296,
+          "rank": 18,
+          "weeklyGain": 1654
+        },
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 98841,
+          "rank": 14,
+          "weeklyGain": 3220
+        },
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 102013,
+          "rank": 17,
+          "weeklyGain": 3172
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 107380,
+          "rank": 11,
+          "weeklyGain": 5367
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 110114,
+          "rank": 22,
+          "weeklyGain": 2734
+        }
+      ]
+    },
+    "paperclipai/paperclip": {
+      "weeks": [
+        {
+          "issue": 7,
+          "date": "2026-09-27",
+          "stars": 88123,
+          "rank": 1,
+          "weeklyGain": 7023
+        },
+        {
+          "issue": 8,
+          "date": "2026-10-04",
+          "stars": 96881,
+          "rank": 1,
+          "weeklyGain": 8758
+        },
+        {
+          "issue": 9,
+          "date": "2026-10-11",
+          "stars": 99974,
+          "rank": 11,
+          "weeklyGain": 3093
+        },
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 103785,
+          "rank": 10,
+          "weeklyGain": 3811
+        },
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 107067,
+          "rank": 16,
+          "weeklyGain": 3282
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 109653,
+          "rank": 19,
+          "weeklyGain": 2586
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 112137,
+          "rank": 23,
+          "weeklyGain": 2484
+        }
+      ]
+    },
+    "awesome-selfhosted/awesome-selfhosted": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 312743,
+          "rank": 6,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 312746,
+          "rank": 6,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 312750,
+          "rank": 6,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 312938,
+          "rank": 6,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 3,
+          "date": "2026-08-30",
+          "stars": 316067,
+          "rank": 19,
+          "weeklyGain": 1681
+        },
+        {
+          "issue": 4,
+          "date": "2026-09-06",
+          "stars": 317415,
+          "rank": 25,
+          "weeklyGain": 1348
+        },
+        {
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 320462,
+          "rank": 24,
+          "weeklyGain": 1578
+        },
+        {
+          "issue": 7,
+          "date": "2026-09-27",
+          "stars": 322105,
+          "rank": 20,
+          "weeklyGain": 1643
+        },
+        {
+          "issue": 8,
+          "date": "2026-10-04",
+          "stars": 323745,
+          "rank": 18,
+          "weeklyGain": 1640
+        },
+        {
+          "issue": 9,
+          "date": "2026-10-11",
+          "stars": 325455,
+          "rank": 20,
+          "weeklyGain": 1710
+        },
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 327805,
+          "rank": 23,
+          "weeklyGain": 2350
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 334955,
+          "rank": 24,
+          "weeklyGain": 2393
         }
       ]
     },
@@ -946,220 +1567,13 @@
           "stars": 92239,
           "rank": 15,
           "weeklyGain": 3356
-        }
-      ]
-    },
-    "storytold/photocraft": {
-      "weeks": [
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 72511,
-          "rank": 8,
-          "weeklyGain": 5805
         },
         {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 75667,
-          "rank": 16,
-          "weeklyGain": 3156
-        }
-      ]
-    },
-    "rohitg00/ai-engineering-from-scratch": {
-      "weeks": [
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 70775,
-          "rank": 11,
-          "weeklyGain": 3759
-        },
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 73434,
-          "rank": 22,
-          "weeklyGain": 2659
-        },
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 76146,
-          "rank": 17,
-          "weeklyGain": 2712
-        }
-      ]
-    },
-    "yt-dlp/yt-dlp": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 184677,
-          "rank": 21,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 2,
-          "date": "2026-08-23",
-          "stars": 186323,
-          "rank": 22,
-          "weeklyGain": 1646
-        },
-        {
-          "issue": 3,
-          "date": "2026-08-30",
-          "stars": 187822,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 192218,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 9,
-          "date": "2026-10-11",
-          "stars": 196786,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 201692,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 204337,
-          "rank": 18,
-          "weeklyGain": 2645
-        }
-      ]
-    },
-    "paperclipai/paperclip": {
-      "weeks": [
-        {
-          "issue": 7,
-          "date": "2026-09-27",
-          "stars": 88123,
-          "rank": 1,
-          "weeklyGain": 7023
-        },
-        {
-          "issue": 8,
-          "date": "2026-10-04",
-          "stars": 96881,
-          "rank": 1,
-          "weeklyGain": 8758
-        },
-        {
-          "issue": 9,
-          "date": "2026-10-11",
-          "stars": 99974,
-          "rank": 11,
-          "weeklyGain": 3093
-        },
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 103785,
-          "rank": 10,
-          "weeklyGain": 3811
-        },
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 107067,
-          "rank": 16,
-          "weeklyGain": 3282
-        },
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 109653,
-          "rank": 19,
-          "weeklyGain": 2586
-        }
-      ]
-    },
-    "NationalSecurityAgency/ghidra": {
-      "weeks": [
-        {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 79090,
-          "rank": 6,
-          "weeklyGain": 4206
-        },
-        {
-          "issue": 9,
-          "date": "2026-10-11",
-          "stars": 82989,
-          "rank": 14,
-          "weeklyGain": 2507
-        },
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 90439,
-          "rank": 3,
-          "weeklyGain": 7450
-        },
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 94077,
-          "rank": 14,
-          "weeklyGain": 3638
-        },
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 96599,
-          "rank": 20,
-          "weeklyGain": 2522
-        }
-      ]
-    },
-    "cheaper-inference/OmniRoute": {
-      "weeks": [
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 83368,
-          "rank": 21,
-          "weeklyGain": 2485
-        }
-      ]
-    },
-    "ruvnet/RuView": {
-      "weeks": [
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 101920,
-          "rank": 22,
-          "weeklyGain": 2435
-        }
-      ]
-    },
-    "calesthio/OpenMontage": {
-      "weeks": [
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 74143,
-          "rank": 23,
-          "weeklyGain": 2435
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 94580,
+          "rank": 25,
+          "weeklyGain": 2341
         }
       ]
     },
@@ -1269,115 +1683,13 @@
           "stars": 259316,
           "rank": 24,
           "weeklyGain": 2429
-        }
-      ]
-    },
-    "firecrawl/firecrawl": {
-      "weeks": [
+        },
         {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167505,
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 261593,
           "rank": 0,
           "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167517,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167529,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167846,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 2,
-          "date": "2026-08-23",
-          "stars": 171020,
-          "rank": 11,
-          "weeklyGain": 3174
-        },
-        {
-          "issue": 3,
-          "date": "2026-08-30",
-          "stars": 174202,
-          "rank": 9,
-          "weeklyGain": 3182
-        },
-        {
-          "issue": 4,
-          "date": "2026-09-06",
-          "stars": 177006,
-          "rank": 7,
-          "weeklyGain": 2804
-        },
-        {
-          "issue": 5,
-          "date": "2026-09-13",
-          "stars": 179662,
-          "rank": 9,
-          "weeklyGain": 2656
-        },
-        {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 182377,
-          "rank": 12,
-          "weeklyGain": 2715
-        },
-        {
-          "issue": 7,
-          "date": "2026-09-27",
-          "stars": 185266,
-          "rank": 9,
-          "weeklyGain": 2889
-        },
-        {
-          "issue": 8,
-          "date": "2026-10-04",
-          "stars": 188385,
-          "rank": 8,
-          "weeklyGain": 3119
-        },
-        {
-          "issue": 9,
-          "date": "2026-10-11",
-          "stars": 190309,
-          "rank": 16,
-          "weeklyGain": 1924
-        },
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 192572,
-          "rank": 25,
-          "weeklyGain": 2263
-        },
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 195095,
-          "rank": 23,
-          "weeklyGain": 2523
-        },
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 197515,
-          "rank": 25,
-          "weeklyGain": 2420
         }
       ]
     },
@@ -1487,6 +1799,129 @@
           "stars": 223698,
           "rank": 0,
           "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 225373,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "firecrawl/firecrawl": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167505,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167517,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167529,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167846,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 171020,
+          "rank": 11,
+          "weeklyGain": 3174
+        },
+        {
+          "issue": 3,
+          "date": "2026-08-30",
+          "stars": 174202,
+          "rank": 9,
+          "weeklyGain": 3182
+        },
+        {
+          "issue": 4,
+          "date": "2026-09-06",
+          "stars": 177006,
+          "rank": 7,
+          "weeklyGain": 2804
+        },
+        {
+          "issue": 5,
+          "date": "2026-09-13",
+          "stars": 179662,
+          "rank": 9,
+          "weeklyGain": 2656
+        },
+        {
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 182377,
+          "rank": 12,
+          "weeklyGain": 2715
+        },
+        {
+          "issue": 7,
+          "date": "2026-09-27",
+          "stars": 185266,
+          "rank": 9,
+          "weeklyGain": 2889
+        },
+        {
+          "issue": 8,
+          "date": "2026-10-04",
+          "stars": 188385,
+          "rank": 8,
+          "weeklyGain": 3119
+        },
+        {
+          "issue": 9,
+          "date": "2026-10-11",
+          "stars": 190309,
+          "rank": 16,
+          "weeklyGain": 1924
+        },
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 192572,
+          "rank": 25,
+          "weeklyGain": 2263
+        },
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 195095,
+          "rank": 23,
+          "weeklyGain": 2523
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 197515,
+          "rank": 25,
+          "weeklyGain": 2420
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 199625,
+          "rank": 0,
+          "weeklyGain": 0
         }
       ]
     },
@@ -1510,6 +1945,13 @@
           "issue": 12,
           "date": "2026-11-01",
           "stars": 194990,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 194947,
           "rank": 0,
           "weeklyGain": 0
         }
@@ -1621,85 +2063,11 @@
           "stars": 187851,
           "rank": 0,
           "weeklyGain": 0
-        }
-      ]
-    },
-    "anthropics/skills": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 169435,
-          "rank": 25,
-          "weeklyGain": 0
         },
         {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 169438,
-          "rank": 25,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 169447,
-          "rank": 25,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 169581,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 2,
-          "date": "2026-08-23",
-          "stars": 171049,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 4,
-          "date": "2026-09-06",
-          "stars": 174673,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 5,
-          "date": "2026-09-13",
-          "stars": 176031,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 7,
-          "date": "2026-09-27",
-          "stars": 178591,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 8,
-          "date": "2026-10-04",
-          "stars": 179574,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 9,
-          "date": "2026-10-11",
-          "stars": 180406,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 12,
-          "date": "2026-11-01",
-          "stars": 186061,
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 187937,
           "rank": 0,
           "weeklyGain": 0
         }
@@ -1811,43 +2179,166 @@
           "stars": 185525,
           "rank": 0,
           "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 186319,
+          "rank": 0,
+          "weeklyGain": 0
         }
       ]
     },
-    "DietrichGebert/ponytail": {
+    "f/prompts.chat": {
       "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167140,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167140,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167141,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 167231,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 167773,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 3,
+          "date": "2026-08-30",
+          "stars": 168193,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 4,
+          "date": "2026-09-06",
+          "stars": 169440,
+          "rank": 0,
+          "weeklyGain": 0
+        },
         {
           "issue": 5,
           "date": "2026-09-13",
-          "stars": 136848,
-          "rank": 2,
-          "weeklyGain": 8492
+          "stars": 170184,
+          "rank": 0,
+          "weeklyGain": 0
         },
         {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 142721,
-          "rank": 3,
-          "weeklyGain": 5873
+          "issue": 8,
+          "date": "2026-10-04",
+          "stars": 171983,
+          "rank": 0,
+          "weeklyGain": 0
         },
         {
           "issue": 9,
           "date": "2026-10-11",
-          "stars": 160719,
-          "rank": 2,
-          "weeklyGain": 6733
+          "stars": 172551,
+          "rank": 0,
+          "weeklyGain": 0
         },
         {
           "issue": 10,
           "date": "2026-10-18",
-          "stars": 166448,
-          "rank": 7,
-          "weeklyGain": 5729
+          "stars": 173279,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 174448,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 176364,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "yt-dlp/yt-dlp": {
+      "weeks": [
+        {
+          "issue": 1,
+          "date": "2026-08-16",
+          "stars": 184677,
+          "rank": 21,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 2,
+          "date": "2026-08-23",
+          "stars": 186323,
+          "rank": 22,
+          "weeklyGain": 1646
+        },
+        {
+          "issue": 3,
+          "date": "2026-08-30",
+          "stars": 187822,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 192218,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 9,
+          "date": "2026-10-11",
+          "stars": 196786,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 201692,
+          "rank": 0,
+          "weeklyGain": 0
         },
         {
           "issue": 12,
           "date": "2026-11-01",
-          "stars": 181746,
+          "stars": 204337,
+          "rank": 18,
+          "weeklyGain": 2645
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 206096,
           "rank": 0,
           "weeklyGain": 0
         }
@@ -1959,6 +2450,13 @@
           "stars": 190278,
           "rank": 0,
           "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 190364,
+          "rank": 0,
+          "weeklyGain": 0
         }
       ]
     },
@@ -1968,6 +2466,13 @@
           "issue": 12,
           "date": "2026-11-01",
           "stars": 141442,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 141488,
           "rank": 0,
           "weeklyGain": 0
         }
@@ -2079,6 +2584,13 @@
           "stars": 140371,
           "rank": 0,
           "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 140713,
+          "rank": 0,
+          "weeklyGain": 0
         }
       ]
     },
@@ -2186,6 +2698,13 @@
           "issue": 12,
           "date": "2026-11-01",
           "stars": 134962,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 135318,
           "rank": 0,
           "weeklyGain": 0
         }
@@ -2297,6 +2816,13 @@
           "stars": 85173,
           "rank": 0,
           "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 85864,
+          "rank": 0,
+          "weeklyGain": 0
         }
       ]
     },
@@ -2404,6 +2930,13 @@
           "issue": 12,
           "date": "2026-11-01",
           "stars": 83894,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 84070,
           "rank": 0,
           "weeklyGain": 0
         }
@@ -2515,6 +3048,13 @@
           "stars": 57010,
           "rank": 0,
           "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 57509,
+          "rank": 0,
+          "weeklyGain": 0
         }
       ]
     },
@@ -2622,6 +3162,13 @@
           "issue": 12,
           "date": "2026-11-01",
           "stars": 54593,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 54951,
           "rank": 0,
           "weeklyGain": 0
         }
@@ -2733,6 +3280,13 @@
           "stars": 53152,
           "rank": 0,
           "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 53331,
+          "rank": 0,
+          "weeklyGain": 0
         }
       ]
     },
@@ -2749,6 +3303,277 @@
           "issue": 12,
           "date": "2026-11-01",
           "stars": 47216,
+          "rank": 0,
+          "weeklyGain": 0
+        },
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 49235,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "KKKKhazix/agent-autoloop": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 4030,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 3163,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "Minireel/HGhub": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 2649,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "govijr/terminal-mac": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 2309,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "NotRexed/Hookshot": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 2187,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "JenkinWoo/sheeridVerify": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 1794,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "livliv-dev/player": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 1284,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "mmdoctor/google-pro-helper": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 1180,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "Sandflow-ai/sand3d": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 1178,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "sarpstar/cinecode": {
+      "weeks": [
+        {
+          "issue": 13,
+          "date": "2026-11-08",
+          "stars": 1176,
+          "rank": 0,
+          "weeklyGain": 0
+        }
+      ]
+    },
+    "storytold/photocraft": {
+      "weeks": [
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 72511,
+          "rank": 8,
+          "weeklyGain": 5805
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 75667,
+          "rank": 16,
+          "weeklyGain": 3156
+        }
+      ]
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "weeks": [
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 70775,
+          "rank": 11,
+          "weeklyGain": 3759
+        },
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 73434,
+          "rank": 22,
+          "weeklyGain": 2659
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 76146,
+          "rank": 17,
+          "weeklyGain": 2712
+        }
+      ]
+    },
+    "NationalSecurityAgency/ghidra": {
+      "weeks": [
+        {
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 79090,
+          "rank": 6,
+          "weeklyGain": 4206
+        },
+        {
+          "issue": 9,
+          "date": "2026-10-11",
+          "stars": 82989,
+          "rank": 14,
+          "weeklyGain": 2507
+        },
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 90439,
+          "rank": 3,
+          "weeklyGain": 7450
+        },
+        {
+          "issue": 11,
+          "date": "2026-10-25",
+          "stars": 94077,
+          "rank": 14,
+          "weeklyGain": 3638
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 96599,
+          "rank": 20,
+          "weeklyGain": 2522
+        }
+      ]
+    },
+    "cheaper-inference/OmniRoute": {
+      "weeks": [
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 83368,
+          "rank": 21,
+          "weeklyGain": 2485
+        }
+      ]
+    },
+    "ruvnet/RuView": {
+      "weeks": [
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 101920,
+          "rank": 22,
+          "weeklyGain": 2435
+        }
+      ]
+    },
+    "calesthio/OpenMontage": {
+      "weeks": [
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 74143,
+          "rank": 23,
+          "weeklyGain": 2435
+        }
+      ]
+    },
+    "DietrichGebert/ponytail": {
+      "weeks": [
+        {
+          "issue": 5,
+          "date": "2026-09-13",
+          "stars": 136848,
+          "rank": 2,
+          "weeklyGain": 8492
+        },
+        {
+          "issue": 6,
+          "date": "2026-09-20",
+          "stars": 142721,
+          "rank": 3,
+          "weeklyGain": 5873
+        },
+        {
+          "issue": 9,
+          "date": "2026-10-11",
+          "stars": 160719,
+          "rank": 2,
+          "weeklyGain": 6733
+        },
+        {
+          "issue": 10,
+          "date": "2026-10-18",
+          "stars": 166448,
+          "rank": 7,
+          "weeklyGain": 5729
+        },
+        {
+          "issue": 12,
+          "date": "2026-11-01",
+          "stars": 181746,
           "rank": 0,
           "weeklyGain": 0
         }
@@ -2989,73 +3814,6 @@
         }
       ]
     },
-    "harry0703/MoneyPrinterTurbo": {
-      "weeks": [
-        {
-          "issue": 2,
-          "date": "2026-08-23",
-          "stars": 114722,
-          "rank": 3,
-          "weeklyGain": 10737
-        },
-        {
-          "issue": 3,
-          "date": "2026-08-30",
-          "stars": 118641,
-          "rank": 5,
-          "weeklyGain": 3919
-        },
-        {
-          "issue": 4,
-          "date": "2026-09-06",
-          "stars": 120907,
-          "rank": 12,
-          "weeklyGain": 2266
-        },
-        {
-          "issue": 5,
-          "date": "2026-09-13",
-          "stars": 122972,
-          "rank": 14,
-          "weeklyGain": 2065
-        },
-        {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 124777,
-          "rank": 21,
-          "weeklyGain": 1805
-        },
-        {
-          "issue": 7,
-          "date": "2026-09-27",
-          "stars": 126195,
-          "rank": 25,
-          "weeklyGain": 1418
-        },
-        {
-          "issue": 8,
-          "date": "2026-10-04",
-          "stars": 128324,
-          "rank": 13,
-          "weeklyGain": 2129
-        },
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 132503,
-          "rank": 17,
-          "weeklyGain": 2943
-        },
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 134943,
-          "rank": 24,
-          "weeklyGain": 2440
-        }
-      ]
-    },
     "usestrix/strix": {
       "weeks": [
         {
@@ -3064,94 +3822,6 @@
           "stars": 71730,
           "rank": 25,
           "weeklyGain": 2436
-        }
-      ]
-    },
-    "f/prompts.chat": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167140,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167140,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167141,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 167231,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 2,
-          "date": "2026-08-23",
-          "stars": 167773,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 3,
-          "date": "2026-08-30",
-          "stars": 168193,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 4,
-          "date": "2026-09-06",
-          "stars": 169440,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 5,
-          "date": "2026-09-13",
-          "stars": 170184,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 8,
-          "date": "2026-10-04",
-          "stars": 171983,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 9,
-          "date": "2026-10-11",
-          "stars": 172551,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 173279,
-          "rank": 0,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 11,
-          "date": "2026-10-25",
-          "stars": 174448,
-          "rank": 0,
-          "weeklyGain": 0
         }
       ]
     },
@@ -3583,101 +4253,6 @@
         }
       ]
     },
-    "public-apis/public-apis": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 458890,
-          "rank": 1,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 458936,
-          "rank": 1,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 458994,
-          "rank": 1,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 460317,
-          "rank": 1,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 2,
-          "date": "2026-08-23",
-          "stars": 468703,
-          "rank": 4,
-          "weeklyGain": 8386
-        },
-        {
-          "issue": 3,
-          "date": "2026-08-30",
-          "stars": 472965,
-          "rank": 4,
-          "weeklyGain": 4262
-        },
-        {
-          "issue": 4,
-          "date": "2026-09-06",
-          "stars": 476082,
-          "rank": 5,
-          "weeklyGain": 3117
-        },
-        {
-          "issue": 5,
-          "date": "2026-09-13",
-          "stars": 479540,
-          "rank": 6,
-          "weeklyGain": 3458
-        },
-        {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 481722,
-          "rank": 15,
-          "weeklyGain": 2182
-        },
-        {
-          "issue": 7,
-          "date": "2026-09-27",
-          "stars": 483659,
-          "rank": 17,
-          "weeklyGain": 1937
-        },
-        {
-          "issue": 8,
-          "date": "2026-10-04",
-          "stars": 485966,
-          "rank": 11,
-          "weeklyGain": 2307
-        },
-        {
-          "issue": 9,
-          "date": "2026-10-11",
-          "stars": 487385,
-          "rank": 24,
-          "weeklyGain": 1419
-        },
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 489860,
-          "rank": 21,
-          "weeklyGain": 2475
-        }
-      ]
-    },
     "JuliusBrussee/caveman": {
       "weeks": [
         {
@@ -3714,87 +4289,6 @@
           "stars": 113337,
           "rank": 22,
           "weeklyGain": 2368
-        }
-      ]
-    },
-    "awesome-selfhosted/awesome-selfhosted": {
-      "weeks": [
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 312743,
-          "rank": 6,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 312746,
-          "rank": 6,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 312750,
-          "rank": 6,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 1,
-          "date": "2026-08-16",
-          "stars": 312938,
-          "rank": 6,
-          "weeklyGain": 0
-        },
-        {
-          "issue": 3,
-          "date": "2026-08-30",
-          "stars": 316067,
-          "rank": 19,
-          "weeklyGain": 1681
-        },
-        {
-          "issue": 4,
-          "date": "2026-09-06",
-          "stars": 317415,
-          "rank": 25,
-          "weeklyGain": 1348
-        },
-        {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 320462,
-          "rank": 24,
-          "weeklyGain": 1578
-        },
-        {
-          "issue": 7,
-          "date": "2026-09-27",
-          "stars": 322105,
-          "rank": 20,
-          "weeklyGain": 1643
-        },
-        {
-          "issue": 8,
-          "date": "2026-10-04",
-          "stars": 323745,
-          "rank": 18,
-          "weeklyGain": 1640
-        },
-        {
-          "issue": 9,
-          "date": "2026-10-11",
-          "stars": 325455,
-          "rank": 20,
-          "weeklyGain": 1710
-        },
-        {
-          "issue": 10,
-          "date": "2026-10-18",
-          "stars": 327805,
-          "rank": 23,
-          "weeklyGain": 2350
         }
       ]
     },
@@ -4245,45 +4739,6 @@
         }
       ]
     },
-    "D4Vinci/Scrapling": {
-      "weeks": [
-        {
-          "issue": 2,
-          "date": "2026-08-23",
-          "stars": 75914,
-          "rank": 21,
-          "weeklyGain": 1710
-        },
-        {
-          "issue": 5,
-          "date": "2026-09-13",
-          "stars": 80603,
-          "rank": 15,
-          "weeklyGain": 1998
-        },
-        {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 82489,
-          "rank": 20,
-          "weeklyGain": 1886
-        },
-        {
-          "issue": 7,
-          "date": "2026-09-27",
-          "stars": 83963,
-          "rank": 23,
-          "weeklyGain": 1474
-        },
-        {
-          "issue": 8,
-          "date": "2026-10-04",
-          "stars": 85547,
-          "rank": 22,
-          "weeklyGain": 1584
-        }
-      ]
-    },
     "Snailclimb/JavaGuide": {
       "weeks": [
         {
@@ -4655,38 +5110,6 @@
           "stars": 146846,
           "rank": 17,
           "weeklyGain": 1965
-        }
-      ]
-    },
-    "github/spec-kit": {
-      "weeks": [
-        {
-          "issue": 2,
-          "date": "2026-08-23",
-          "stars": 130847,
-          "rank": 25,
-          "weeklyGain": 1590
-        },
-        {
-          "issue": 4,
-          "date": "2026-09-06",
-          "stars": 133639,
-          "rank": 23,
-          "weeklyGain": 1401
-        },
-        {
-          "issue": 5,
-          "date": "2026-09-13",
-          "stars": 136121,
-          "rank": 10,
-          "weeklyGain": 2482
-        },
-        {
-          "issue": 6,
-          "date": "2026-09-20",
-          "stars": 138007,
-          "rank": 19,
-          "weeklyGain": 1886
         }
       ]
     },
